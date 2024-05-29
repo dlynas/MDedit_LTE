@@ -47,6 +47,14 @@ def ordered_dump(data, stream=None, Dumper=yaml.SafeDumper, **kwds):
     OrderedDumper.add_representer(OrderedDict, _dict_representer)
     return yaml.dump(data, stream, OrderedDumper, **kwds)
 
+def ensure_yaml_frontmatter(content):
+    frontmatter_pattern = r'^---\n.*?\n---\n'
+    if not re.match(frontmatter_pattern, content, re.DOTALL):
+        default_frontmatter = '---\nbase_tags: []\ntags: []\n---\n'
+        content = default_frontmatter + content
+    return content
+
+
 def loadYAML(yaml_content):
     return ordered_load(yaml_content)
 
@@ -181,11 +189,14 @@ class CustomMarkdownEditor(QTextEdit):
                 with open(full_path, 'r', encoding='utf-8') as file:
                     content = file.read()
                 cursor.insertText("\n" + content + "\n")
-                self.highlightLinks()
-                self.parent().updateWordFrequency(content)
-                self.parent().autoSelectTags(content)
+                self.highlightLinks()  # Assume highlightLinks is properly defined in this class
+                if hasattr(self.parent(), 'updateWordFrequency'):
+                    self.parent().updateWordFrequency(content)  # Safe method call
+                if hasattr(self.parent(), 'autoSelectTags'):
+                    self.parent().autoSelectTags(content)  # Safe method call
         except Exception as e:
             self.showErrorMessage(str(e))
+
 
     def findMediaFile(self, link):
         base_paths = [
@@ -430,9 +441,17 @@ class MarkdownEditor(QWidget):
 
         file, full_path = self.loaded_files[self.current_processing_index]
 
-        self.loadFileForProcessing(full_path)
-        self.autoSelectTags(self.editor.toPlainText())
-        self.saveFile()
+        try:
+            self.loadFileForProcessing(full_path)
+            self.autoSelectTags(self.editor.toPlainText())
+            
+            # Copy tags to frontmatter
+            self.copyTagsToFrontmatter()
+
+            self.saveFile()
+        except Exception as e:
+            logging.error(f"Error processing file {full_path}: {str(e)}")
+            print(f"Error processing file {full_path}: {str(e)}")
 
         self.current_processing_index += 1
         self.progress_dialog.setValue(self.current_processing_index)
@@ -441,6 +460,8 @@ class MarkdownEditor(QWidget):
             QtCore.QTimer.singleShot(100, self.processNextFile)
         else:
             QMessageBox.information(self, "Completed", "Tagging process completed for all files.")
+
+
 
     def pauseProcessing(self):
         if self.progress_dialog.wasCanceled():
@@ -453,19 +474,29 @@ class MarkdownEditor(QWidget):
 
 
 
-    def loadFileForProcessing(self, file_path):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
-            self.editor.setPlainText(content)
-            self.editor.highlightLinks()
-            yaml_frontmatter = self.extractYAMLFrontmatter(content)
-            self.yamlEditor.setPlainText(saveYAML(yaml_frontmatter))
-            self.current_file_path = file_path
-            self.file_modified = False
-        except Exception as e:
-            logging.error(f"Error loading file {file_path}: {str(e)}")
-            self.showErrorMessage(str(e))
+    def loadFile(self):
+        options = QFileDialog.Options()
+        fileName, _ = QFileDialog.getOpenFileName(self, "Open Markdown File", "", "Markdown Files (*.md);;All Files (*)", options=options)
+        if fileName:
+            try:
+                with open(fileName, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                self.editor.setPlainText(content)
+                self.editor.highlightLinks()
+                yaml_frontmatter = self.extractYAMLFrontmatter(content)
+                self.yamlEditor.setPlainText(saveYAML(yaml_frontmatter))
+                self.current_file_path = fileName
+                self.file_modified = False
+                self.populateAllTagsList()
+
+                # Load embedded markdown files
+                self.loadEmbeddedMarkdownFiles(content)
+            except Exception as e:
+                logging.error(f"Error loading file {fileName}: {str(e)}")
+                print(f"Error loading file {fileName}: {str(e)}")
+                self.showErrorMessage(str(e))
+
+
 
 
 
@@ -477,37 +508,46 @@ class MarkdownEditor(QWidget):
         yaml_content = self.yamlEditor.toPlainText()
         yaml_data = loadYAML(yaml_content) if yaml_content.strip() else {}
 
-        base_tags = yaml_data.get('base_tags', '').split(', ')
-        main_tags = yaml_data.get('tags', '').split(', ')
+        # Ensure 'base_tags' and 'tags' are strings
+        base_tags = yaml_data.get('base_tags', '')
+        main_tags = yaml_data.get('tags', '')
 
-        base_tags = list(filter(None, base_tags))  # Remove empty strings
-        main_tags = list(filter(None, main_tags))
+        # Convert to string if they are lists
+        if isinstance(base_tags, list):
+            base_tags = ', '.join(base_tags)
+        if isinstance(main_tags, list):
+            main_tags = ', '.join(main_tags)
+
+        base_tags_list = base_tags.split(', ') if base_tags else []
+        main_tags_list = main_tags.split(', ') if main_tags else []
 
         new_tags_added = False
         for tag in selected_base_tags:
-            if tag not in base_tags:
-                base_tags.append(tag)
+            if tag not in base_tags_list:
+                base_tags_list.append(tag)
                 new_tags_added = True
 
         for tag in selected_main_tags:
-            if tag not in main_tags:
-                main_tags.append(tag)
+            if tag not in main_tags_list:
+                main_tags_list.append(tag)
                 new_tags_added = True
 
         if new_tags_added:
-            yaml_data['base_tags'] = ', '.join(sorted(base_tags))
-            yaml_data['tags'] = ', '.join(sorted(main_tags))
+            yaml_data['base_tags'] = ', '.join(sorted(base_tags_list))
+            yaml_data['tags'] = ', '.join(sorted(main_tags_list))
 
             updated_yaml_content = saveYAML(yaml_data)
             self.yamlEditor.setPlainText(updated_yaml_content)
 
-            self.updateTagDisplay()  # Ensure the tag display is updated correctly
+            self.updateTagLists(main_tags_list, base_tags_list)  # Correct method to update tag lists in UI
 
             for tag in selected_base_tags + selected_main_tags:
                 self.updateAllTags(tag, increment=True)  # Update All Tags count
 
             self.populateAllTagsList()
             self.markAsModified()
+
+
 
     def getSelectedTags(self, widget):
         selected_tags = []
@@ -593,16 +633,21 @@ class MarkdownEditor(QWidget):
         if not self.promptSaveChanges():
             return
         try:
-            # Retrieve the full path from the item's data
             full_path = item.data(Qt.UserRole)
             if full_path:
                 with open(full_path, 'r', encoding='utf-8') as file:
                     content = file.read()
+                content = ensure_yaml_frontmatter(content)
+                yaml_frontmatter = self.extractYAMLFrontmatter(content)
+                if yaml_frontmatter:
+                    yaml_text = saveYAML(yaml_frontmatter)
+                    self.yamlEditor.setPlainText(yaml_text)
+                else:
+                    self.yamlEditor.clear()
+                content = re.sub(r'^---\n.*?\n---\n', '', content, flags=re.DOTALL)
                 self.editor.setPlainText(content)
                 self.editor.highlightLinks()
                 self.updateWordFrequency(content)
-                yaml_frontmatter = self.extractYAMLFrontmatter(content)
-                self.yamlEditor.setPlainText(saveYAML(yaml_frontmatter))
                 self.file_modified = False
                 self.populateAllTagsList()
 
@@ -620,10 +665,13 @@ class MarkdownEditor(QWidget):
 
                 # Update the new QTextEdit widget with embedded content
                 self.updateEmbeddedContentDisplay()
-
         except Exception as e:
             logging.error(f"Error loading file {full_path}: {str(e)}")
+            print(f"Error loading file {full_path}: {str(e)}")
             self.showErrorMessage(str(e))
+
+
+
 
     def loadEmbeddedMarkdownFiles(self, content):
         pattern = re.compile(r'!\[\[([^\]]+)\]\]')
@@ -773,6 +821,26 @@ class MarkdownEditor(QWidget):
                 self.selectNextFile()
         super().keyPressEvent(event)
 
+    def loadFileForProcessing(self, file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+            content = ensure_yaml_frontmatter(content)  # Ensure YAML frontmatter
+            self.editor.setPlainText(content)
+            self.editor.highlightLinks()
+            yaml_frontmatter = self.extractYAMLFrontmatter(content)
+            self.yamlEditor.setPlainText(saveYAML(yaml_frontmatter))
+            self.current_file_path = file_path
+            self.file_modified = False
+        except Exception as e:
+            logging.error(f"Error loading file {file_path}: {str(e)}")
+            print(f"Error loading file {file_path}: {str(e)}")
+            self.showErrorMessage(str(e))
+
+
+
+
+
     def loadFile(self):
         options = QFileDialog.Options()
         fileName, _ = QFileDialog.getOpenFileName(self, "Open Markdown File", "", "Markdown Files (*.md);;All Files (*)", options=options)
@@ -805,18 +873,24 @@ class MarkdownEditor(QWidget):
             self.showErrorMessage(str(e))
 
     def loadFolder(self, folder):
-        self.fileList.clear()
-        self.loaded_files = []
-        for root, dirs, files in os.walk(folder):
-            for file in files:
-                if file.endswith(".md"):
-                    full_path = os.path.join(root, file)
-                    self.loaded_files.append((file, full_path))
-        
-        # Sort files alphabetically by filename
-        self.loaded_files.sort(key=lambda x: x[0])
-        
-        self.updateFileList(self.loaded_files)
+        try:
+            self.fileList.clear()
+            self.loaded_files = []
+            for root, dirs, files in os.walk(folder):
+                for file in files:
+                    if file.endswith(".md"):
+                        full_path = os.path.join(root, file)
+                        self.loaded_files.append((file, full_path))
+            
+            # Sort files alphabetically by filename
+            self.loaded_files.sort(key=lambda x: x[0])
+            
+            self.updateFileList(self.loaded_files)
+        except Exception as e:
+            logging.error(f"Error loading folder {folder}: {str(e)}")
+            print(f"Error loading folder {folder}: {str(e)}")
+            self.showErrorMessage(str(e))
+
 
     def updateFileList(self, files):
         self.fileList.clear()
@@ -985,6 +1059,7 @@ class MarkdownEditor(QWidget):
     def addTag(self):
         tag = self.tagInput.text().strip().lower()
         if not tag:
+            QMessageBox.information(self, "No Tag Entered", "Please enter a tag before adding.")
             return
 
         yaml_content = self.yamlEditor.toPlainText()
@@ -994,7 +1069,7 @@ class MarkdownEditor(QWidget):
             yaml_data['tags'] = ""
 
         existing_tags = [existing_tag.strip() for existing_tag in yaml_data['tags'].split(",") if existing_tag.strip()]
-        
+
         if tag not in existing_tags:
             existing_tags.append(tag)
             existing_tags.sort()
@@ -1010,6 +1085,23 @@ class MarkdownEditor(QWidget):
             self.tagInput.clear()
         else:
             QMessageBox.information(self, "Duplicate Tag", "This tag is already added.")
+
+        # Refresh the Markdown editor
+        self.refreshMarkdownEditor()  # Assuming you implement a method to reapply syntax highlighting and other editor features.
+
+
+
+
+    def refreshMarkdownEditor(self):
+        # Reapply text to trigger updates in the markdown display
+        current_text = self.editor.toPlainText()
+        self.editor.setPlainText("")  # Clear and reset to trigger refresh
+        self.editor.setPlainText(current_text)
+
+        # Optionally re-highlight links or other markdown features
+        self.editor.highlightLinks()
+
+
 
     def getTagsList(self, widget):
         tags = []
