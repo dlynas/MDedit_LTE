@@ -1,0 +1,20 @@
+---
+source: www.ijcai.org
+url: https://www.ijcai.org/proceedings/2019/17
+---
+
+## Ioannis Caragiannis, Evi Micha
+
+![](https://www.ijcai.org/sites/default/files/proceedings_images/p19.png)
+
+Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence
+
+---
+
+Liquid democracy, which combines features of direct and representative democracy has been proposed as a modern practice for collective decision making. Its advocates support that by allowing voters to delegate their vote to more informed voters can result in better decisions. In an attempt to evaluate the validity of such claims, we study liquid democracy as a means to discover an underlying ground truth. We revisit a recent model by Kahng et al. \[2018\] and conclude with three negative results, criticizing an important assumption of their modeling, as well as liquid democracy more generally. In particular, we first identify cases where natural local mechanisms are much worse than either direct voting or the other extreme of full delegation to a common dictator. We then show that delegating to less informed voters may considerably increase the chance of discovering the ground truth. Finally, we show that deciding delegations that maximize the probability to find the ground truth is a computationally hard problem.
+
+Keywords:
+
+Agent-based and Multi-agent Systems: Computational Social Choice
+
+Agent-based and Multi-agent Systems: Voting

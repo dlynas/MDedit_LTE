@@ -1,0 +1,32 @@
+---
+source: instagram
+url: https://www.instagram.com/p/C4ypdA2uaOJ/
+media: image
+---
+
+## Snippets of the last piece on the Cosmic Anarchy newsletter
+
+🌙 Read full piece on wokescientist.substack.com 💫
+
+If you cannot afford a paid subscription & would like to read the more personal parts of pieces etc, just shoot me an email & I’ll add you ayeshakhan0993@gmail.com 🙏🏾
+
+![[3328905388270134153_3328905381634844611]]
+
+![[3328905388270134153_3328905381576179112]]
+
+![[3328905388270134153_3328905381601164643]]
+
+![[3328905388270134153_3328905381575979010]]
+
+![[3328905388270134153_3328905381592923201]]
+
+![[3328905388270134153_3328905381601326017]]
+
+![[3328905388270134153_3328905381592820072]]
+
+![[3328905388270134153_3328905381584440884]]
+
+![[3328905388270134153_3328905381584377690]]
+
+![[3328905388270134153_3328905381601115821]]
+

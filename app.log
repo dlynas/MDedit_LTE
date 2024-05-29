@@ -1,0 +1,110 @@
+2024-05-28 01:16:14,452 - INFO - Application closed gracefully.
+2024-05-28 03:32:51,894 - INFO - Application closed gracefully.
+2024-05-28 03:38:44,171 - INFO - Application closed gracefully.
+2024-05-28 03:51:00,091 - INFO - Application closed gracefully.
+2024-05-28 04:08:06,625 - INFO - Application closed gracefully.
+2024-05-28 04:09:07,720 - CRITICAL - Critical error on startup: unsupported operand type(s) for +: 'float' and 'str'
+2024-05-28 04:15:01,027 - INFO - Application closed gracefully.
+2024-05-28 04:25:39,097 - INFO - Application closed gracefully.
+2024-05-28 04:57:06,983 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'copyTagsToFrontmatter'
+2024-05-28 05:02:41,161 - INFO - Application closed gracefully.
+2024-05-28 05:16:50,705 - CRITICAL - Critical error on startup: name 'QGridLayout' is not defined
+2024-05-28 05:18:52,476 - INFO - Application closed gracefully.
+2024-05-28 05:22:24,695 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3322207496889360687_3322207491478644314.md: name 'stopwords_list' is not defined
+2024-05-28 05:23:59,444 - INFO - Application closed gracefully.
+2024-05-28 05:24:51,119 - INFO - Application closed gracefully.
+2024-05-28 05:41:09,988 - INFO - Application closed gracefully.
+2024-05-28 05:45:32,090 - INFO - Application closed gracefully.
+2024-05-28 05:46:45,059 - INFO - Application closed gracefully.
+2024-05-28 05:47:18,441 - INFO - Application closed gracefully.
+2024-05-28 05:48:52,729 - INFO - Application closed gracefully.
+2024-05-28 05:48:58,152 - INFO - Application closed gracefully.
+2024-05-28 05:49:05,740 - INFO - Application closed gracefully.
+2024-05-28 05:49:08,273 - INFO - Application closed gracefully.
+2024-05-28 05:50:11,839 - INFO - File saved: /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3322207496889360687_3322207491478644314.md
+2024-05-28 05:51:46,841 - INFO - Application closed gracefully.
+2024-05-28 05:53:53,715 - INFO - File saved: /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3322207496889360687_3322207491478644314.md
+2024-05-28 05:58:34,137 - INFO - Application closed gracefully.
+2024-05-28 06:00:40,025 - INFO - Application closed gracefully.
+2024-05-28 06:07:52,402 - INFO - Application closed gracefully.
+2024-05-28 06:15:21,238 - INFO - Application closed gracefully.
+2024-05-28 06:18:30,090 - INFO - Application closed gracefully.
+2024-05-28 06:26:15,572 - ERROR - Error loading folder: 'QListWidget' object has no attribute 'setItemData'
+2024-05-28 06:28:43,930 - ERROR - Error opening folder: name 'QListWidgetItem' is not defined
+2024-05-28 14:53:14,244 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'createTagWidget'
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 778, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 159, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 226, in initUI
+    self.baseTagsWidget = self.createTagWidget(base_tags_df, 'Base Tags', 'red', columns=2)
+                          ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MarkdownEditor' object has no attribute 'createTagWidget'. Did you mean: 'createTagsWidget'?
+2024-05-28 18:07:35,697 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/an-israeli-soldier-assaults-a-child-and-forces-him.md: 'CustomMarkdownEditor' object has no attribute 'showErrorMessage'
+2024-05-28 18:58:39,871 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3270747627677584052_3270747622351038056.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:58:44,133 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3295474052080581369_3295474047164788070.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:58:47,686 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/54b4eb7bc2dbfad3dda410e76554da71_MD5.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:58:51,821 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_metamedia/3209277514881885586_3209277508456087314.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:58:57,431 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/in-the-first-week-this-exchange-deal-was-offered-t.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:59:02,012 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/trump-and-biden-are-two-sides-of-the-same-racist-i.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:59:04,872 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/when-pro-israelis-say-palestinians-rejected-peace-.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 18:59:13,236 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/but-people.md: 'MarkdownEditor' object has no attribute 'findMediaFile'
+2024-05-28 20:18:41,517 - CRITICAL - Critical error on startup: name 'mainTags_df' is not defined
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 876, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 229, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 335, in initUI
+    self.mainTagsWidget = self.createTagWidget(mainTags_df, 'Main Tags', 'red', columns=5)
+                                               ^^^^^^^^^^^
+NameError: name 'mainTags_df' is not defined. Did you mean: 'main_tags_df'?
+2024-05-28 20:37:36,782 - ERROR - Error loading file /Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/_notes/10-hard-truths-israel-palestine.md: 'MarkdownEditor' object has no attribute 'updateWordFrequency'
+2024-05-29 00:55:47,947 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'searchFiles'
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 971, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 234, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 250, in initUI
+    self.searchInput.textChanged.connect(self.searchFiles)
+                                         ^^^^^^^^^^^^^^^^
+AttributeError: 'MarkdownEditor' object has no attribute 'searchFiles'
+2024-05-29 00:57:22,190 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'searchFiles'
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 971, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 234, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 250, in initUI
+    self.searchInput.textChanged.connect(self.searchFiles)
+                                         ^^^^^^^^^^^^^^^^
+AttributeError: 'MarkdownEditor' object has no attribute 'searchFiles'
+2024-05-29 00:59:04,244 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'searchFiles'
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 971, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 234, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 250, in initUI
+    self.searchInput.textChanged.connect(self.searchFiles)
+                                         ^^^^^^^^^^^^^^^^
+AttributeError: 'MarkdownEditor' object has no attribute 'searchFiles'
+2024-05-29 01:00:18,828 - CRITICAL - Critical error on startup: 'MarkdownEditor' object has no attribute 'searchFiles'
+Traceback (most recent call last):
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 973, in <module>
+    editor = MarkdownEditor()  # Initialize your main window class
+             ^^^^^^^^^^^^^^^^
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 234, in __init__
+    self.initUI()
+  File "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/MDedit.py", line 250, in initUI
+    self.searchInput.textChanged.connect(self.searchFiles)
+                                         ^^^^^^^^^^^^^^^^
+AttributeError: 'MarkdownEditor' object has no attribute 'searchFiles'
+2024-05-29 02:13:01,681 - ERROR - Error loading embedded content display: 'MarkdownEditor' object has no attribute 'embeddedContentDisplay'

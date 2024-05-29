@@ -1,0 +1,29 @@
+---
+note_type: metamedia
+mm_source: youtube
+mm_url: https://www.youtube.com/watch?v=kyioZODhKbE
+---
+
+# Video
+
+Facts Don't Win Fights: Here’s How to Cut Through Confirmation Bias | Tali Sharot | Big Think - YouTube
+![](https://www.youtube.com/watch?v=kyioZODhKbE)
+
+Transcript:
+(00:06) So most of us think that information is the best way to convince people of our truth, and in fact it doesn’t work that well.We see that all the time. We see it with climate change, where there’s tons of data suggesting that climate change is man-made but about 50 percent of the population doesn’t believe it, or with people arguing about things like how many people were in the presidential inauguration.
+(00:32) So we have facts but people decide which facts they want to listen to, which facts they want to take and change their opinions, and which they want to disregard. And one of the reasons for this is when something doesn’t conform to what I already believe, what people tend to do is either disregard it or rationalize it away; because information doesn’t take into account what makes us human, which is our emotions, our desires, our motives and our prior beliefs.
+(01:02) So for example, in one study my colleagues and I tried it to see whether we could use science to change people’s opinions about climate change. The first thing we did was ask people, “Do you believe in man-made climate change? Do you support the Paris Agreement?” And based on their answers we divided them into the strong believers and the weak believers.
+(01:22) And then we gave them information. For some people we said that scientists have reevaluated the data and now conclude that things are actually much worse than they thought before, that the temperature would rise by about seven degrees to ten degrees. For some people we said the scientists have reevaluated the data and they now believe that actually this situation is not as bad as they thought, it’s much better, and the rise in temperature would be quite small.
+(01:48) And what we found is that people who did not believe in climate change, when they heard that the scientists are saying, “Actually it’s not that bad,” they changed their beliefs even more in that direction, so they became more extremist in that direction, but when they heard that the scientists think it’s much worse they didn’t nudge.
+(02:04) And the people who already believe that climate change is man-made, when they heard that scientists are saying things are much worse than they said before, they moved more in that direction, so they became more polarized, but when they heard scientists are saying it’s not that bad they didn’t nudge much.
+(02:18) So we gave people information and as a result it caused polarization, it didn’t cause people to come together. So the question is, what’s happening inside our brain that causes this? And in one study my colleagues and I scanned brain activity of two people who were interacting, and what we found was when those two people agreed on a question that we gave them, the brain was really encoding what the other person was saying, the details that they gave; but when the two people disagreed it looked metaphorically as if the brain was switching off and not
+(02:56) encoding what the other person was saying.And as a result when the two agreed they became even more confident, but when they disagreed there wasn’t as much of a change in their confidence in their own view. What has been shown by Kahan and colleagues from Yale University is that the more intelligent you are the more likely you are to change data at will.
+(03:19) So what they did is they first gave participants in their experiment analytical and math questions to solve, and then they gave them data about gun control: is gun control actually reducing violence? And they found that more “intelligent” people actually were more likely to twist data at will to make it conform to what they already believed.
+(03:44) So it seems that people are using their intelligence not necessarily to find the truth, but to take in the information and change it to conform to what they already believe. So that suggests that just giving people information without considering first where they’re coming from may backfire at us, but we don’t always need to go against someone’s conviction in order to change their behavior, and let me give you an example.
+(04:14) So this is a study that was conducted at UCLA where what they wanted to do is convince parents to vaccinate their kids. And some of the parents didn’t want to vaccinate their kids because they were afraid of the link with autism.So they had two approaches, first they said, “Well the link with autism is actually not real, here’s all the data suggesting there isn’t a link between vaccines and autism.
+(04:38) ” And it didn’t really work that well. But instead they used another approach. So instead of going that way they used another approach, which was: let’s not talk about autism, we don’t necessarily need to talk about autism to convince you to vaccinate your kids. Instead they said, “Well look, these vaccines protect kids from deadly diseases, from the measles,” and they showed them pictures of what the measles are.
+(05:01) Because in this argument about vaccines people actually forgot what the vaccines are for, what are they protecting us from. And they highlighted that and didn’t necessarily go on to discuss autism. That had a much better outcome. The parents were much more likely to say, “Yes we are going to vaccinate our kids.
+(05:20) ” So the lesson here is that we need to find the common motive. The common motive in this case was the health of the children, not necessarily going back to the thing that they were arguing about, that they disagreed about.
+
+
+## Keywords

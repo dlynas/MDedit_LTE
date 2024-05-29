@@ -1,0 +1,38 @@
+---
+source: instagram
+url: https://www.instagram.com/p/C6eJMM3ulDc/
+media: image
+---
+
+## 1: Icon. War paint. 
+
+2-4: Pigs shot a protestor point blank in the face with a 40mm round 
+
+5-7: And this is not the first, only or last time 
+
+8: regardless, the students kettled the cops out 
+
+9-10: All of it matters. We know why we’re doing this. 
+
+Escalate. Disarm Isntreal. #freepalestine🇵🇸 #studentintifada
+
+![[3359162792937148636_3359162782904457640]]
+
+![[3359162792937148636_3359162782971415590]]
+
+![[3359162792937148636_3359162782912613271]]
+
+![[3359162792937148636_3359162782921225334]]
+
+![[3359162792937148636_3359162783030126131]]
+
+![[3359162792937148636_3359162782912785241]]
+
+![[3359162792937148636_3359162782963054519]]
+
+![[3359162792937148636_3359162782895924932]]
+
+![[3359162792937148636_3359162782912826708]]
+
+![[3359162792937148636_3359162782912794788]]
+

@@ -1,0 +1,32 @@
+---
+source: instagram
+url: https://www.instagram.com/p/C322_ZcAoVC/
+media: image
+---
+
+## Those of us who continue to bear witness must hold onto our humanity with everything we have. 
+
+Decolonization & Liberation are the balm to oppression everywhere.
+
+Analysis by @stefkaufman 
+
+ID via @SF_Access pinned in comments
+
+![[3312076427129685314_3312076423530877483]]
+
+![[3312076427129685314_3312076423614767187]]
+
+![[3312076427129685314_3312076423531020637]]
+
+![[3312076427129685314_3312076423690282514]]
+
+![[3312076427129685314_3312076423614721347]]
+
+![[3312076427129685314_3312076423614807067]]
+
+![[3312076427129685314_3312076423631577798]]
+
+![[3312076427129685314_3312076423531025500]]
+
+![[3312076427129685314_3312076423640003565]]
+

@@ -1,0 +1,34 @@
+---
+source: www.theamericanconservative.com
+url: https://www.theamericanconservative.com/the-timeless-way-of-christopher-alexander/
+---
+
+Arts & Letters
+
+For Alexander, great buildings are “timeless” because they seem to reach into eternity, reminding men that they have a higher home.
+
+![Sala_House_front_hall_1](https://www.theamericanconservative.com/wp-content/uploads/2022/05/Sala_House_front_hall_1-scaled-e1653403401833.jpg)
+
+Christopher Alexander was an architectural populist. The architect, who died in March at 85, denounced his profession’s establishment and championed the intuitions of amateurs. In a famous 1982 debate at Harvard, he accused the deconstructive architect Peter Eisenman of “f—ing up the world.”
+
+Alexander used profane language to express his conviction that architects had betrayed a sacred calling. For Alexander, there is a “timeless way of building” whose precepts could be traced across cultures and down the centuries. This way is evident in all “the villages and tents and temples in which man feels at home”—from the humblest mud-brick dwelling to the great shrines of Chartres and Ise Jingu.
+
+Alexander insisted that this timeless way of building was not an occult tradition known only to the members of an aesthetic elite. It reflected common intuitions and operated according to “a pattern language” that could be learned by all. In his 1977 book of that title, he described this language’s rules with remarkable specificity. For instance: Every room should have windows on at least two sides, unless it is no more than eight feet deep. Kitchens should have open-shelf storage in which items are stacked one-deep (a rule ignored in most American kitchens but followed in Donald Judd’s [house](https://cdn.wallpaper.com/main/styles/responsive_1460w_scale/s3/e_wal_2013_004_jun_136-2.jpg?itok=JJmOjnWM) at 101 Spring St.).
+
+The pattern language encompasses not just details of construction but the fundamental organization of political life. Alexander wanted to replace nation-states, which he regarded as too large, with a global confederation of smaller localities. He recognized that such a reform would mean the dissolution of his home country, England, and its replacement with something like the Anglo-Saxon heptarchy.
+
+Alexander’s idealism was apparent in “The Oregon Experiment,” a campus plan he drew up for the University of Oregon. Formulated in response to the student movement of the late sixties, it proposed a participatory democratic process by which students, faculty, and others would design their campus in a joint and piecemeal fashion, allowing for the sort of organic growth that had made Cambridge and Oxford so beautiful. Noble as this plan was, it was soon set aside by administrators, who felt the need to accommodate large donors and compete with other universities by building flashy facilities. The University of Oregon soon became, as one administrator [put it](https://www.nytimes.com/2013/08/03/sports/ncaafootball/oregon-football-complex-is-glittering-monument-to-ducks-ambitions.html), the “University of Nike.” Democratic ideals were displaced by financial imperatives, and the name of the state was replaced with the name of a corporation.
+
+Eisenman draped his work in invocations of radical theory. But his architecture could ultimately be reconciled with capital, as seen in the shimmering stadium he built for the Arizona Cardinals. Alexander, who claimed to be innocent of Derrida and Foucault, evinced a much more genuine hostility to the financial interests his peers claimed to oppose.
+
+Alexander’s architectural populism endeared him to laymen. _A Pattern Language_ is not only one of the best books of the last 50 years; it is also an enduring bestseller. But his contempt for the settled patterns of the architectural profession alienated him from his colleagues. As men like Eisenman went on to celebrated careers, Alexander’s reputation faded.
+
+Yet Alexander is now enjoying an unacknowledged vindication, as ideas he championed are coming into vogue. Alexander preferred to work in vernacular styles that reflected communal traditions. He believed in using locally available materials that would make buildings less expensive to maintain. These ideas are increasingly fashionable, as the architectural profession seeks to promote environmental sustainability and cultural diversity. This year, architecture’s highest honor, the Pritzker Prize, went to Francis Kere, an architect from Burkina Faso who [has used](https://www.archdaily.com/785955/primary-school-in-gando-kere-architecture) clay bricks, corrugated tin, and other inexpensive materials to fashion an updated version of his local vernacular. Wang Shu, another recent winner of the Pritzker Prize, [draws on](https://www.architecturalrecord.com/articles/5844-tiles-hill-by-amateur-architecture-studio) the vernacular of his native China.
+
+Even so, Alexander is unlikely to receive the honor he deserves. The architectural establishment remains hostile to Western vernaculars, even as it celebrates traditional styles of other kinds. Alexander supported all vernaculars, including those of the West. Further, Alexander’s architecture is inextricable from his religious vision. His opposition to his colleagues bespoke not just a stylistic difference but profoundly opposed visions of man’s nature and destiny.
+
+In his debate with Eisenman, Alexander argued that a great building should be “absolutely comfortable.” Eisenman took the opposite view. Perhaps at one time architecture served that purpose, but in the modern world it has a different task. Man no longer stands at the center of the universe. Architecture should therefore “remind people that everything \[i\]sn’t all right.” The result has been structures like Eisenman’s Holocaust memorial in Berlin, an expanse of irregularly positioned blocks that refuses to offer consolation or catharsis.
+
+In a perceptive post at [Radiopaper](https://radiopaper.com/), David Schaengold [argues](https://radiopaper.com/conversation/o4jadQHvIGvfY9JNC9MD/HYf7YCe9pfcdQSIkWrWF) that Alexander’s description of great buildings as “absolutely comfortable” is too limited. It fails to capture the way the most supreme constructions take us out of ourselves. Alexander himself understood this problem, and in _The Timeless Way of Building_, the fullest statement of his principles, he granted that the word “comfortable” was insufficient; good architecture must also be “eternal.”
+
+For Alexander, great buildings are “timeless” not just because they are constructed according to unchanging principles and have a lasting beauty, but because they seem to reach into eternity, reminding men that they have a higher home. Alexander devoted his life to building a world in which men can enjoy a vision of their father’s house, whose patterns he sought to discern.

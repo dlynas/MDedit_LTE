@@ -1,0 +1,11 @@
+---
+source: instagram
+url: https://www.instagram.com/p/C30VSO7x5uH/
+media: image
+---
+![](3311365237986794375.jpg)
+## @adriennemareebrown & the writings of @charoshane got me enamored by thich nhat hahn, which i'm grateful for - i enrolled in plum village's course "zen and the art of saving the planet" this spring. 
+this morning, reading about aaron bushnell, pictured, who self-immolated in front of the israeli embassy in washington, DC yesterday (he died in the hospital, which i'm certain he was prepared to do, and i also imagine could have been prevented if so-called security guards had fire extinguishers as accessible as they did guns, which at least one drew on a 25-year-old lying on the ground engulfed in flames, who used what it seems were his last living breaths to yell "free palestine") i read what hahn said about thich quang duc, a buddhist monk who self-immolated in downtown saigon on june 11, 1963, in protest against the vietnam war, which i think is worth reading & at least attempting to internalize. last night i wept in a deep overwhelm listening to @hurrayfortheriffraff read refaat alareer during their closing number, and thinking about how the death of my father has demolished me; this morning i wept in a deep overwhelm over what a voluntary sacrifice of your own life implies. 
+my boyfriend jumped off a bridge; his death marked his surrender in a years-long deeply courageous and admirable battle against mental illness. he was sick, and innocent. i believe bushnell to have been healthy, & burdened by the guilt of complicity. i agree with hahn that what he did was something other than suicide.
+"the press spoke then of suicide, but in the essence, it is not. it is not even a protest....to burn oneself by fire is to prove that what one is saying is of the utmost importance...to express will by burning oneself, therefore, is not to commit an act of destruction but to perform an act of construction, that is, to suffer and die for the sake of one's people. this is not suicide....i believe with all my heart that the monks who burned themselves did not aim at the death of their oppressors but only at a change in their policy. their enemies are not man. they are intolerance, fanaticism, dictatorship, cupidity, hatred, and discrimination which lie within the heart of man."
+

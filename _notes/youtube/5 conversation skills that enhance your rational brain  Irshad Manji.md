@@ -1,0 +1,33 @@
+---
+note_type: metamedia
+mm_source: youtube
+mm_url: https://www.youtube.com/watch?v=RyKbSXkdmP4
+---
+
+# Video
+
+5 conversation skills that enhance your rational brain | Irshad Manji - YouTube
+![](https://www.youtube.com/watch?v=RyKbSXkdmP4)
+
+Transcript:
+(00:00) - Diversity is not a human construct– it is a fact of life. The question is: Are we going to use it to rip society apart? Or are we going to deploy it to stitch society together? All of us as human beings, we are born with a brain that is scanning for threats five times a second. And so, when we encounter points of view that differ from our own, that primitive brain makes us feel more stressed and more defensive than we mean to be, and that, in turn, makes us want to lash back.
+(00:44) And we're doing this right across the ideological spectrum now. "You're a Democrat. I have nothing more to say to you because we're obviously going to disagree." "Oh, you're a Republican: You are evil, and that's all I need to know." The problem with labels is not that they are labels; the problem is that we human beings are not static.
+(01:08) We are constantly evolving, regressing, evolving some more, and what that means is the way to bring people together, to actually solve nagging problems, is to recognize that humanity. Not exploit it, but in fact, relate to it. My name is Irshad Manji. And today, I'll teach you five really simple skills that reduce emotional defenses to turn contentious issues into constructive conversations for the sake of taking action together.
+(01:57) I was what we'd call today, a "culture warrior." - 'Ladies and gentlemen, Irshad Manji.' - And I would turn potentially healthy discussions, into noxious debates. 'Is your organization also reaching out to mosques and asking them, in fact, demanding of them-' Because I had to win, because I was right, and because I was right, they were wrong.
+(02:26) 'Very big difference, in that respect.' 'But, but you see, this is where support-' 'But why do I have to push you to give them credit?' Was I moving the needle? Hell no! I was, actually, making my critics more defensive and dogmatic. - 'We will be back for another head-to-head.
+(02:42) ' - If all you want to do is thump your chest, and throw your hands up in victory, and claim that you've slam-dunked your other– all right. But then understand, that you have zero credibility complaining that the so-called other side isn't changing. 'Cause guess what? You haven't given them any incentive to change.
+(03:07) To engage, actually takes a set of skills– a tool kit that equips us to do two things: Understand where other people are coming from, and be understood for where we are coming from. And shift the paradigm from either/or, to both/and. Skill number one: Breathe, but breathe deeply. Yes, I know you can roll your eyes at this, it sounds airy-fairy.
+(03:39) But when we breathe deeply, we do something very different than we tend to do as humans under stress. Under stress, we become very shallow breathers. That deprives my own brain of the oxygen that it needs to transition from the hyperemotional ego region, to the much more evolved prefrontal cortex, where cognition and emotion can coexist.
+(04:08) Skill number two: Don't merely seek common ground, proactively create it. Instead of leaving it up to chance that maybe, just maybe, we'll find something that unifies us before we dive into our differences, try saying, "Look, I know that you and I are gonna disagree about this issue, but I also know that you are so much more than just this issue.
+(04:38) Can you remember the same about me?" Skill number three: Before stating where you're coming from, ask a sincere question. Be the leader that doesn't need to be right instantly, or even all the time. Ask them, "What do you think I'm missing about where you're coming from?" "Be my teacher.
+(05:03) " That gives me then the credibility to be your teacher later on. You are modeling what it is to build the kind of culture that makes for inquiry, rather than inquisition. Skill number four: Having now asked a question, what are you gonna do? Well, of course you're gonna listen– or are you? There are at least two ways to listen: You can listen to win, or you can listen to learn.
+(05:35) So, how do you tell the difference between the two? Very easily. If I'm listening to win, then in the back of my head, I'm poking holes in the other's arguments. I'm not really trying to learn from that argument. But when I go in with the mindset that, "I have something to learn; that I'm not here to change your mind– quite the opposite.
+(06:00) I hope you're gonna change mine because maybe I don't get it." When you can sincerely show that this is not a tactic, it's not a tool to manipulate, that's when you're listening to learn. Which brings us to the fifth skill: Ask another question. But this time, start with three simple words, "Tell me more.
+(06:29) " I'll tell you about a recent instance in which this produced great results: A deputy superintendent of police was at a raucous town hall meeting about homelessness. Activists was yelling at the city councilors. City councilors were not motivated to listen. The police officer approaches her to say, "Listen, I think we can work something out.
+(06:50) Here's my card, call me." She looks at him. He happened to be a man of color. And she said, "You're nothing but a token." And instead of merely reacting to her, he responded, "Tell me more." She didn't know what to do with that. She expected belligerence. He didn't give it to her.
+(07:13) She took his card, and a week later, she called. And she apologized, "I saw your uniform, I'm sorry. I assumed about you what I shouldn't have." And he quickly and graciously accepted, and they moved on to work together on a solution. So, none of this is merely theoretical– it is informed by behavioral science.
+(07:41) Does that mean that you practice one of these skills and handholding harmony will break out? Obviously, not. But what you are doing is habituating yourself into a way of being that, at the very least, will exponentially increase the chances of healthy outcomes to contentious conversations– that assumes you want healthy outcomes.
+(08:09) So, I bring it back to probably the most uncomfortable question that we always need to ask: What am I really in this for? Am I in it to solve the problem? Or am I in it to feel morally superior? Only you can decide– choose wisely.
+
+
+## Keywords

@@ -1,0 +1,46 @@
+---
+source: foreignpolicy.com
+url: https://foreignpolicy.com/2016/07/06/the-imf-confronts-its-n-word-neoliberalism/
+---
+
+[My FP:](https://foreignpolicy.com/myfp) Follow topics and authors to get straight to what you like. Exclusively for FP subscribers. [Subscribe Now](https://foreignpolicy.com/2016/07/06/the-imf-confronts-its-n-word-neoliberalism/#) | [Log In](https://foreignpolicy.com/2016/07/06/the-imf-confronts-its-n-word-neoliberalism/#)
+
+The research department of the International Monetary Fund dropped a political bombshell last month. The furor was set off by the publication of an article — “[Neoliberalism: Oversold?](http://www.imf.org/external/pubs/ft/fandd/2016/06/ostry.htm)” — that sparked a near-panic among advocates of free market policies and celebrations among their critics. The piece concluded that, over the past 30 years, the proponents of the economic philosophy known as “neoliberalism” have been systematically overselling the benefits of the two planks at its heart — namely, fiscal austerity during economic slowdowns and the deregulation of financial markets.
+
+This is a huge concession for an institution long known for its ideological self-assuredness.
+
+> This is a huge concession for an institution long known for its ideological self-assuredness.
+
+Essentially, the article contends that these two policies, which the IMF has long championed, are of questionable utility. It finds that they “have not delivered” the higher economic growth rates that were promised and may have even done more harm than good. Additionally, according to the article, both fiscal austerity and increased financial openness have often exacerbated economic inequality, which itself could become a drag on future economic growth rates. In other words, the venerable institution had essentially everything wrong — at least as far as these two key tenets of neoliberalism go.
+
+Most strikingly, the article infers that three policy prescriptions long advocated by the IMF’s critics — regulation of some capital flows, Keynesian fiscal stimulus policies, and effective economic redistribution — all have more merit than the IMF has long contended. As Ben Norton [wrote](http://www.salon.com/2016/05/31/wrong_all_along_neoliberal_imf_admits_neoliberalism_fuels_inequality_and_hurts_growth/) in _Salon_, these conclusions amount to heresy: “It is somewhat like the Pope declaring that there is no God; it is a volte-face on almost everything that the IMF has ever stood for.”
+
+> “It is somewhat like the Pope declaring that there is no God; it is a volte-face on almost everything that the IMF has ever stood for.”
+
+Longtime IMF critic Naomi Klein [tweeted](https://twitter.com/naomiaklein/status/735965241872261120) sarcastically, “So all the billionaires it created are going to give back their money, right?”
+
+Presumably not. But the significance of the article — at least in the long term — is that it might signal a deeper reckoning, both within the IMF and more broadly across Western capitals, about the failure of 30 years of neoliberal policies to bring about financial stability or lessen widening economic divides.
+
+In the meantime, unsurprisingly, the IMF leadership was quick to [distance itself](https://www.yahoo.com/news/imf-says-not-recanting-neoliberalism-austerity-165721641.html) from the piece, making clear that it had no intention of abandoning neoliberalism. The organization’s chief economist, Maury Obstfeld, [conceded](http://www.imf.org/external/pubs/ft/survey/so/2016/POL060216A.htm) that the shock of the 2008 global financial crisis has “led to a broad rethink of macroeconomic and financial policy in the global academic and policy community,” including within the fund, but argued that the troublesome article “has been widely misinterpreted” and “does not signify a major change in the fund’s approach.” Similarly, the _Financial Times_ [described](http://www.ft.com/intl/cms/s/0/4b98c052-238a-11e6-9d4d-c11776a5124d.html) the article as “more a reflection of the vigorous debates \[underway\] inside the IMF than a brutal takedown of the free market policies the fund has long advocated.”
+
+Indeed, despite the uproar, it’s not clear that the IMF’s approach to economic development is about to change. Many IMF watchers have noted that the fund [continues](https://www.washingtonpost.com/news/monkey-cage/wp/2016/06/02/did-the-imf-actually-ease-up-on-demanding-structural-adjustments-heres-what-the-data-say/) to operate as usual, [attaching](http://www.ilo.org/secsoc/information-resources/publications-and-tools/Workingpapers/WCMS_431730/lang--en/index.htm) austerity policies and other neoliberal reforms as binding conditions to its loans. Economist Jerry Epstein said while such internal debates within the IMF are healthy, they have so far had little or no impact at the operational, country level of IMF policy. Isabel Ortiz of the U.N. International Labor Organization wondered, “Will the operational side of the IMF even listen to the researchers?”
+
+> “Will the operational side of the IMF even listen to the researchers?”
+
+The controversial article’s lead author, Jonathan Ostry — who is the deputy director of the IMF’s research department — [said](http://www.ft.com/intl/cms/s/0/4b98c052-238a-11e6-9d4d-c11776a5124d.html) the piece focused on two specific policies and was not meant as an attack on “the entire neoliberal agenda or the Washington consensus.” On the other hand, he also hinted that he hoped the article would be the first of more to come and that it would set up the opportunity to more broadly examine neoliberalism this year.
+
+The fact that the IMF is using the word “neoliberalism” in such a high-profile way is telling, since it is employed almost exclusively by critics of economic liberalization. Advocates of neoliberalism prefer to avoid the term, assuming that the policies are so self-evidently right that they don’t need a name at all. The fact that the IMF’s own research department has acknowledged the term could be interpreted as a nod to the fund’s critics that some of its policies did reflect ideological biases and that other approaches are valid.
+
+If so, it’s about time.
+
+The challenges raised by neoliberal economic development policies were easy for Western leaders to ignore when they were limited to crises in the developing world, such as Latin America in the 1980s, East Asia in the 1990s, and Russia and Turkey in the early 2000s. But since the 2008 financial crisis struck the rich countries too, their shortcomings have been harder to deny. With economic inequality untamed, financial markets still unstable, and fiscal austerity having utterly failed to revive economic growth and employment to pre-2008 levels, it’s increasingly difficult to keep pretending that the status quo is working.
+
+Before Ronald Reagan and Margaret Thatcher repopularized the ideology of free markets in the 1980s, the need for Keynesian economics and financial regulation had been widely accepted for a 40-year stretch following the Great Depression, and the advocates of free markets languished on the sidelines. Western leaders had learned the best way to prevent socialist revolutions and fascist dictatorships was to adopt policies that would avoid financial crises and lessen economic inequality. But the Reagan-Thatcher revolution set about unlearning those lessons, and the worsening inequality and financial instability of the last 30 years were the unfortunate result.
+
+If the IMF’s article is the first sign of a swing back in the other direction, Norwegian economic historian Erik Reinert, for one, won’t be surprised. He has [noted](http://www.un.org/esa/desa/papers/2009/wp88_2009.pdf) that the popularity of free market policies has risen and fallen cyclically throughout history, such as before and then after the French Revolution, before the [1847 financial crisis](https://en.wikipedia.org/wiki/Panic_of_1847) that was followed by a string of social revolutions across Europe in [1848](https://en.wikipedia.org/wiki/Revolutions_of_1848), and before the stock market crash of 1929 that was followed by the Great Depression. During each of these cycles, free markets were championed for a while but then eventually abandoned as financial crises became more frequent and economic inequality more pronounced.
+
+Today, in a time when Thomas Piketty’s [critique](http://www.amazon.com/dp/1491591617/?tag=fopo091-20) of worsening economic inequality is a best-seller, leading U.S. presidential candidates rail against free trade deals, right-wing anti-immigrant parties win elections across Europe, and even the Organization for Economic Cooperation and Development [calls](http://www.oecd.org/eco/outlook/euro-area-economic-forecast-summary.htm) on its members to put the brakes on austerity, it’s clear that the political center, which has favored neoliberal policies for the last 30 years, is no longer holding. The high-profile IMF mea culpa may well be a first shot across the bow, a sign that we are now entering what Reinert calls our own modern-day “1848 moment.”
+
+In the photo, people in Madrid demonstrate in support of Greece against a deal with other European governments, the EU, and the IMF to implement austerity measures on July 5, 2015.
+
+Photo credit: JAVIER SORIANO/AFP/Getty Images

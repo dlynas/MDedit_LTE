@@ -1,0 +1,26 @@
+---
+note_type: metamedia
+mm_source: youtube
+mm_url: https://www.youtube.com/watch?v=AkgsYA-LYxo
+---
+
+# Video
+
+Become a great strategic thinker | Ian Bremmer - YouTube
+![](https://www.youtube.com/watch?v=AkgsYA-LYxo)
+
+Transcript:
+(00:00) (contemplative music) - Thinking strategically is meta thinking. It's thinking about thinking. It is not responding to headlines. It's not what CNN wants to talk to me about on any given day, or Fox News. It is instead trying to think about, for me, where the world is heading. That means pattern recognition, lots of different macro themes at the country level, at the company level, at the individual level, and how they create trade-offs in leaders that are affected frequently by many of them, but have very different priorities, needs, and timeframes.
+(01:08) It's very easy to say, okay, I just saw this headline, and I have a large amount of personal history and data, and that will allow me to immediately frame what I think that means, where I should place it in my existing worldview, and is there any information there that's dissonant? That is completely un-strategic thinking? Strategic thinking is, what goes on outside of that? It is how do I create my worldview? What would change it? What are the pieces that I prioritize? What are the ones that aren't so important?
+(01:46) Why do I prioritize them that way? Does that make sense today? What's changed in the last 10 years or 20 years? The world changes so quickly, and yet people don't revisit their worldview nearly as quickly as the world changes. And yet, of course, you should revisit your worldview on a continual basis, not because you were wrong, I mean you may have been wrong, but much more likely is, you had some level of rightness.
+(02:15) You weren't analytically wrong. The world moved, and if you are not moving, you're gonna become wrong. I mean, one thing, any analytic view will become wrong over time, and strategic thinking, I think, at its base is an effort to prevent that from happening. (contemplative music) Great strategic thinkers are curious and open.
+(02:45) They are fine with being wrong, admitting that they're wrong, talking about what that means, and moving on. They're also people that are very curious about different worldviews. People that have respect for worldviews and opinions, and analysis that are dramatically different from their own, and that engage with them, those are people who tend to be good strategic thinkers.
+(03:18) I don't necessarily say opposing worldviews, because worldviews don't need to be opposing. They just need to be different. I happen to be born in the United States, and that of necessity gives me a worldview of that context. But if I same human being happen to be born in China, would that give me an opposing worldview? No, I would be the same person, I'd just have a different worldview.
+(03:44) People that are much more comfortable simply following folks that confirm their priors may be outstanding tactical thinkers, but are not good strategic thinkers. Of course, this is not easy to do. I mean, it's kind of like going to the gym. The first time is daunting. Once you do it every morning, stopping doing it would feel daunting, but you have to actually build up that training, that practice, and it takes time because your brain doesn't like it when you start engaging with things that you don't agree with.
+(04:25) It finds it unnerving. But if you do it enough, and you start breaking down your own internal barriers to say, no, it's not that I don't like this person. It's not that that opinion turns me off. It's just that they come from a different story. They're not villainous, right? The fact that you're Israeli or Palestinian doesn't make the other person wrong, they're both heroes of their own stories, they just have different stories.
+(04:55) If you are prepared to understand, accept, and embrace that, then you tend to be a better strategic thinker. (contemplative music) Nelson Mandela would probably be at the top of my list in terms of global strategic thinkers. He is not only someone of extraordinary moral courage and personal conviction, he also is someone that recognizes for the long future of his country that he needed to put aside personal vendettas, and even the desire to meet out immediate justice in order to ensure that his country had a future.
+(05:39) He took the long view on values and ethics, and human development in a way that very few political figures really do. My only regret is that I never had the opportunity to meet him personally. Maybe that allows me to lionize him more, because a lot of world leaders who I have a lot of respect for that I've spent a lot of time with personally do become more humanized in ways that don't always comport with how much you respect them once you've spent time with them.
+(06:08) That's not always true, but it's frequently true. (contemplative music) -  To learn even more from the world's biggest thinkers, get BigThink+ for your business.
+
+
+## Keywords

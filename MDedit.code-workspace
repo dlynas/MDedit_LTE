@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/Users/studio/Documents/mypy/OBSDN_LCL/data/working/code/active/MDedit/venv/bin/python3"
+    },
+    "extensions": {
+        "recommendations": [
+            "silasnevstad.gpthelper"
+        ]
+    }
+}

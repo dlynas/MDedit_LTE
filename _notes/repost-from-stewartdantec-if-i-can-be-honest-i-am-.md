@@ -1,0 +1,34 @@
+---
+source: instagram
+url: https://www.instagram.com/p/C3vzMLkSscP/
+media: image
+---
+
+## Repost from @stewartdantec
+•
+If I can be honest, I am afraid for us and our children. Just to be real. I am afraid. I’m mostly afraid that many of us are exhausted and those who want the world to become more white are exploiting our exhaustion.
+
+I am praying for us.
+
+Stay determined.
+
+![[3310089388566431503_3310089383894027505]]
+
+![[3310089388566431503_3310089383885579861]]
+
+![[3310089388566431503_3310089384003098081]]
+
+![[3310089388566431503_3310089383994527886]]
+
+![[3310089388566431503_3310089383877277260]]
+
+![[3310089388566431503_3310089383885615182]]
+
+![[3310089388566431503_3310089383893971635]]
+
+![[3310089388566431503_3310089383994589469]]
+
+![[3310089388566431503_3310089383877036005]]
+
+![[3310089388566431503_3310089383877236917]]
+

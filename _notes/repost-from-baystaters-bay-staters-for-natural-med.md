@@ -1,0 +1,31 @@
+---
+source: instagram
+url: https://www.instagram.com/p/CR1phv8BmCl/
+media: image
+---
+
+## Repost from @baystaters Bay Staters for Natural Medicine
+"People over profit... to learn more context and read sources check out the google doc written by James Davis lead organizer for Baystaters at tinyurl.com/bigpharmapsychedelics
+
+Give @baystaters a follow for more informative posts
+
+![[2627188596763156645_2627188592283628210]]
+
+![[2627188596763156645_2627188592040469843]]
+
+![[2627188596763156645_2627188592006694612]]
+
+![[2627188596763156645_2627188592082345593]]
+
+![[2627188596763156645_2627188592023467237]]
+
+![[2627188596763156645_2627188592275350231]]
+
+![[2627188596763156645_2627188592015115847]]
+
+![[2627188596763156645_2627188592031854706]]
+
+![[2627188596763156645_2627188592375810279]]
+
+![[2627188596763156645_2627188591989961739]]
+

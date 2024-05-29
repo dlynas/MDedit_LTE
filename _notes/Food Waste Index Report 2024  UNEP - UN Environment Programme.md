@@ -1,0 +1,8 @@
+---
+source: www.unep.org
+url: https://www.unep.org/resources/publication/food-waste-index-report-2024
+---
+
+To catalyse essential action towards reducing food waste and achieving SDG 12.3, it's imperative to grasp the extent of food waste. Measuring food waste allows countries to comprehend the magnitude of the issue, thereby revealing the size of the opportunity, while establishing a baseline for tracking progress. The Food Waste Index Report 2021 marked a pivotal moment in understanding global food waste across retail, food service, and household sectors. It unveiled a greater availability of food waste data than anticipated, particularly at the household level, and revealed that per capita household food waste generation was more consistent worldwide than previously thought.
+
+The Food Waste Index Report 2024 builds upon its predecessor in three key ways: Firstly, it incorporates vastly expanded data points from around the world, providing a significantly more robust global and national estimates, detailed in Chapter 2 of the main report. Secondly, it expands on the SDG 12.3 food waste measurement methodology introduced in the 2021 report, offering enhanced guidance on measurement across retail, food service, and household sectors. This additional guidance delves into various methodologies, their strengths and limitations, and strategies for prioritising sub-sectors for measurement, as explored in Chapter 3. Lastly, the report transitions from focusing solely on food waste measurement to exploring solutions for food waste reduction. The chapter examines effective approaches to reducing food waste globally, with a spotlight on public-private partnerships in this 2024 report.

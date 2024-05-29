@@ -1,0 +1,42 @@
+---
+source: en.wikipedia.org
+url: https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate
+---
+
+From Wikipedia, the free encyclopedia
+
+The **Foucault–Habermas debate** is a dispute concerning whether [Michel Foucault](https://en.wikipedia.org/wiki/Michel_Foucault "Michel Foucault")'s ideas of "power analytics" and "[genealogy](https://en.wikipedia.org/wiki/Genealogy_(philosophy) "Genealogy (philosophy)")" or [Jürgen Habermas](https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas "Jürgen Habermas")' ideas of "[communicative rationality](https://en.wikipedia.org/wiki/Communicative_rationality "Communicative rationality")" and "[discourse ethics](https://en.wikipedia.org/wiki/Discourse_ethics "Discourse ethics")" provide a better critique of the nature of _power_ in society. The debate compares and evaluates the central ideas of Habermas and Foucault as they pertain to questions of [power](https://en.wikipedia.org/wiki/Power_(sociology) "Power (sociology)"), [reason](https://en.wikipedia.org/wiki/Reason "Reason"), [ethics](https://en.wikipedia.org/wiki/Ethics "Ethics"), [modernity](https://en.wikipedia.org/wiki/Modernity "Modernity"), [democracy](https://en.wikipedia.org/wiki/Democracy "Democracy"), [civil society](https://en.wikipedia.org/wiki/Civil_society "Civil society"), and [social action](https://en.wikipedia.org/wiki/Social_action "Social action").
+
+## Overview\[[edit](https://en.wikipedia.org/w/index.php?title=Foucault%E2%80%93Habermas_debate&action=edit&section=1 "Edit section: Overview")\]
+
+The debate was a dialogue between texts and followers; Foucault and Habermas did not actually debate in person, though they were considering a formal one in the U.S. before Foucault's death in 1984. Habermas' essay _Taking Aim at the Heart of the Present_ (1984) was altered before release in order to account for Foucault's inability to reply. Habermas wrote:
+
+> Foucault discovers in Kant, as the first philosopher, an archer who aims his arrow at the heart of the most actual features of the present and so opens the discourse of modernity ... but Kant's philosophy of history, the speculation about a state of freedom, about world-citizenship and eternal peace, the interpretation of revolutionary enthusiasm as a sign of historical 'progress toward betterment' – must not each line provoke the scorn of Foucault, the theoretician of power? Has not history, under the stoic gaze of the archaeologist Foucault, frozen into an iceberg covered with the crystals of arbitrary formulations of discourse?<sup id="cite_ref-1"><a href="https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_note-1">[1]</a></sup>
+
+[Nancy Fraser](https://en.wikipedia.org/wiki/Nancy_Fraser "Nancy Fraser")'s contentious, but oft-quoted, claim that Foucault's work is a mixture of "empirical insights and normative confusions" exemplifies the most common strategy of critique by those favouring Habermas. It attempts to demonstrate the incoherence of Foucault's practice of critical reflection while at the same time appropriating those aspects considered valuable. Demonstrating this incoherence is necessary from the Habermas position since he sought to establish _the_ form of critical reflection, whereas Foucault sought to establish only _a_ form of critical reflection.<sup id="cite_ref-Ashenden_Owen_2-0"><a href="https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_note-Ashenden_Owen-2">[2]</a></sup>
+
+In response, many of Foucault's advocates argue the Habermasian critique presupposes what it seeks to show and that the critique is based on a misunderstanding of Foucault's work. In 1999, Ashenden and Owen published an edited volume of papers entitled _Foucault contra Habermas: Recasting the dialogue between genealogy and critical theory_ in an attempt to re-engage the debate and shift the dialogue to new ground. Specifically, they aimed to 1) illuminate the stakes of the encounter between the different practices of critical reflection, 2) evaluate some major criticisms of genealogy made in the course of the debate, and 3) offer a critical response to Habermas' position from the perspective of Foucault's practice in relation to contemporary political-philosophical and political issues.<sup id="cite_ref-Ashenden_Owen_2-1"><a href="https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_note-Ashenden_Owen-2">[2]</a></sup>
+
+The publication of Foucault's [Collège de France](https://en.wikipedia.org/wiki/Foucault%27s_lectures_at_the_Coll%C3%A8ge_de_France "Foucault's lectures at the Collège de France") lectures over the past decade has also served to recast the Foucault–Habermas debate since the Ashenden and Owen volume. The lectures on [biopolitics](https://en.wikipedia.org/wiki/Biopolitics "Biopolitics") and [governmentality](https://en.wikipedia.org/wiki/Governmentality "Governmentality"), as well as Foucault's relation to Kant and neoliberalism has resulted in a number of scholars revisiting questions of normativity, resistance and critique in Foucault's work.<sup id="cite_ref-3"><a href="https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_note-3">[3]</a></sup>
+
+## See also\[[edit](https://en.wikipedia.org/w/index.php?title=Foucault%E2%80%93Habermas_debate&action=edit&section=2 "Edit section: See also")\]
+
+-   [Cassirer–Heidegger debate](https://en.wikipedia.org/wiki/Cassirer%E2%80%93Heidegger_debate "Cassirer–Heidegger debate")
+-   [Gadamer–Derrida debate](https://en.wikipedia.org/wiki/Gadamer%E2%80%93Derrida_debate "Gadamer–Derrida debate")
+-   [Positivism dispute](https://en.wikipedia.org/wiki/Positivism_dispute "Positivism dispute")
+-   [Power (social and political)](https://en.wikipedia.org/wiki/Power_(social_and_political) "Power (social and political)")
+-   [Rationality](https://en.wikipedia.org/wiki/Rationality "Rationality")
+-   _[Rationality and Power](https://en.wikipedia.org/wiki/Rationality_and_Power "Rationality and Power")_
+-   [Searle–Derrida debate](https://en.wikipedia.org/wiki/Searle%E2%80%93Derrida_debate "Searle–Derrida debate")
+-   [Chomsky-Foucault debate](https://en.wikipedia.org/wiki/Chomsky-Foucault_debate "Chomsky-Foucault debate")
+
+## References\[[edit](https://en.wikipedia.org/w/index.php?title=Foucault%E2%80%93Habermas_debate&action=edit&section=3 "Edit section: References")\]
+
+1.  **[^](https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_ref-1 "Jump up")** Jürgen Habermas. 'Taking Aim at the Heart of the Present' in Hoy, D (eds) _Foucault: A critical reader_ Basil Blackwell. Oxford, 1986.
+2.  ^ [Jump up to: <sup><i><b>a</b></i></sup>](https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_ref-Ashenden_Owen_2-0) [<sup><i><b>b</b></i></sup>](https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_ref-Ashenden_Owen_2-1) Samantha Ashenden and David Owen. 'Introduction: Foucault, Habermas and the Politics of Critique' in Ashenden, S. and Owen, D. (eds) _Foucault contra Habermas: Recasting the Dialogue between Genealogy and Critical Theory_. Sage Publications. London, 1999.
+3.  **[^](https://en.wikipedia.org/wiki/Foucault%E2%80%93Habermas_debate#cite_ref-3 "Jump up")** Mayes, Christopher R. (1 December 2015). "Revisiting Foucault's 'Normative Confusions': Surveying the Debate Since the Collège de France Lectures". _Philosophy Compass_. **10** (12): 841–855. [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):[10.1111/phc3.12274](https://doi.org/10.1111%2Fphc3.12274). [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") [1747-9991](https://www.worldcat.org/issn/1747-9991).
+
+## Bibliography\[[edit](https://en.wikipedia.org/w/index.php?title=Foucault%E2%80%93Habermas_debate&action=edit&section=4 "Edit section: Bibliography")\]
+
+-   Ingram, David. "Foucault and Habermas on the Subject of Reason". In Gutting, Gary, ed. (1994). _The Cambridge Companion to Foucault_ Cambridge: Cambridge University Press. pp. 215–261. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") [0-521-40887-3](https://en.wikipedia.org/wiki/Special:BookSources/0-521-40887-3 "Special:BookSources/0-521-40887-3").
+-   Kelly, Michael ed. (1994). _Critique and Power: Recasting the Foucault/Habermas Debate_. Cambridge: MIT Press. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") [0-262-61093-0](https://en.wikipedia.org/wiki/Special:BookSources/0-262-61093-0 "Special:BookSources/0-262-61093-0").
