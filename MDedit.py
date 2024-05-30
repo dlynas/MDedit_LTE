@@ -242,11 +242,33 @@ class CustomMarkdownEditor(QTextEdit):
 class MarkdownEditor(QWidget):
     def __init__(self):
         super().__init__()
+        
+        # Define tag colors
+        self.maroon_tags = set([
+            'human_rights', 'justice', 'health', 'housing', 'labor', 'education', 'discrimination', 'free_speech', 
+            'discrimination', 'race', 'gender', 'sexuality', 'disabilities', 'homelessness', 'renting', 'home_ownership', 
+            'public_education', 'libraries', 'student_debt', 'student_protests', 'domestic_policy', 'healthcare', 
+            'education', 'housing', 'elections', 'police', 'prisons', 'social_security', 'financial_regulation', 
+            'economics', 'taxes', 'mmt', 'finance', 'wealth', 'inequality', 'financial_regulation', 'media',  'propaganda', 'politics', 'organizing', 'important', 'collection', 'metamedia', 'short', 'long', 'multimedia', 'image', 'video', 'document', 'pdf', 'book', 'social_media', 'instagram', 'reddit', 'twitter', 'website', 'wikipedia', 'youtube', 'people', 'places', 'groups', 'organizations', 'ideology', 'journalism'
+        ])
+        self.purple_tags = set([
+            'justice', 'law_enforcement', 'incarceration', 'land_back', 'reparations', 'migration', 'apartheid', 
+            'genocide', 'ethnic_cleansing', 'public_healthcare', 'hunger', 'mental_health', 'reproductive_rights', 
+            'child_care', 'elder_care', 'disabilities', 'economic_rights', 'inequality', 'labor', 'domestic_policy', 
+            'foreign_policy', 'authoritarianism', 'facism', 'biden', 'trump', 'left_politics', 'right_politics', 
+            'center_politics', 'foreign_policy', 'war', 'foreign_trade', 'environment', 'climate', 'renewable_energy', 
+            'science', 'physics', 'chemistry', 'biology', 'neuroscience', 'math'
+        ])
+        self.gray_tags = set([
+         'politics', 'economics', 'capitalism', 'socialism', 'cognition', 'communication', 'community', 'critical_thinking', 'ecology', 'ethics', 'history', 'language', 'media_literacy', 'patterns', 'philosophy', 'psychology', 'religion', 'science', 'sociology', 'strategy', 'systems', 'violence'
+        ])
         self.initUI()
         self.last_search_pos = 0
         self.current_file_path = None
         self.file_modified = False
         self.loaded_files = []  # Store the list of loaded files
+
+
 
     def initUI(self):
         main_splitter = QSplitter(Qt.Horizontal)
@@ -316,7 +338,7 @@ class MarkdownEditor(QWidget):
         right_splitter = QSplitter(Qt.Vertical)
         
         self.wordList = QListWidget()
-        self.populateListWidget(self.wordList, columns=3)  # Adjust columns as needed
+        self.populateListWidget(self.wordList)
         right_splitter.addWidget(self.wordList)
         
         self.addSelectedTagButton = QPushButton('Add Selected as Tag')
@@ -328,17 +350,17 @@ class MarkdownEditor(QWidget):
         
         # Inside the initUI method, initialize the fileTags and baseTags list widgets
         self.fileTags = QListWidget()
-        self.populateListWidget(self.fileTags, columns=3)  # Adjust columns as needed
+        self.populateListWidget(self.fileTags)  # Adjust columns as needed, remove the direct columns argument
         tags_layout.addWidget(QLabel("File Tags"), 0, 0)
         tags_layout.addWidget(self.fileTags, 1, 0)
 
         self.baseTags = QListWidget()
-        self.populateListWidget(self.baseTags, columns=3)  # Adjust columns as needed
+        self.populateListWidget(self.baseTags)  # Adjust columns as needed, remove the direct columns argument
         tags_layout.addWidget(QLabel("Base Tags"), 0, 1)
         tags_layout.addWidget(self.baseTags, 1, 1)
 
         self.allTags = QListWidget()
-        self.populateListWidget(self.allTags, columns=3)  # Adjust columns as needed
+        self.populateListWidget(self.allTags)  # Adjust columns as needed, remove the direct columns argument
         tags_layout.addWidget(QLabel("All Tags"), 0, 2)
         tags_layout.addWidget(self.allTags, 1, 2)
         
@@ -352,11 +374,15 @@ class MarkdownEditor(QWidget):
         right_splitter.addWidget(self.removeTagButton)
         
         # Adding baseTags and mainTags sections
-        self.baseTagsWidget = self.createTagWidget(base_tags_df, 'Base Tags', 'red', columns=5)
+        self.baseTagsWidget = self.createTagWidget(base_tags_df, 'Base Tags', columns=5)
         right_splitter.addWidget(self.baseTagsWidget)
 
-        self.mainTagsWidget = self.createTagWidget(main_tags_df, 'Main Tags', 'red', columns=5)
+        self.mainTagsWidget = self.createTagWidget(main_tags_df, 'Main Tags', columns=5)
         right_splitter.addWidget(self.mainTagsWidget)
+
+        self.deselectAllTagsButton = QPushButton('Deselect All Tags')
+        self.deselectAllTagsButton.clicked.connect(self.deselectAllTags)
+        right_splitter.addWidget(self.deselectAllTagsButton)
 
         self.copyTagsButton = QPushButton('Copy Selected Tags to Frontmatter')
         self.copyTagsButton.clicked.connect(self.copyTagsToFrontmatter)
@@ -377,7 +403,7 @@ class MarkdownEditor(QWidget):
         self.globalKeyFilter = GlobalKeyFilter(self)
         self.installEventFilter(self.globalKeyFilter)
 
-    def populateListWidget(self, widget, columns=3):
+    def populateListWidget(self, widget):
         widget.setViewMode(QListWidget.IconMode)
         widget.setWrapping(True)
         widget.setGridSize(QtCore.QSize(150, 20))
@@ -386,7 +412,7 @@ class MarkdownEditor(QWidget):
         widget.setSelectionMode(QListWidget.MultiSelection)  # Allow multiple selections
 
 
-    def createTagWidget(self, tags_df, label, color, columns=5):
+    def createTagWidget(self, tags_df, label, columns=5):
         widget = QWidget()
         layout = QVBoxLayout()
         layout.addWidget(QLabel(label))
@@ -397,7 +423,14 @@ class MarkdownEditor(QWidget):
         for index, row_data in tags_df.iterrows():
             for tag in row_data.dropna():
                 checkbox = QCheckBox(tag)
-                checkbox.setStyleSheet(f"background-color: {color};")
+                if tag in self.maroon_tags:
+                    checkbox.setStyleSheet("background-color: maroon;")
+                elif tag in self.purple_tags:
+                    checkbox.setStyleSheet("background-color: purple;")
+                elif tag in self.gray_tags:
+                    checkbox.setStyleSheet("background-color: gray;")
+                else:
+                    checkbox.setStyleSheet("background-color: default;")  # You can set a default color if needed
                 grid_layout.addWidget(checkbox, row, col)
                 col += 1
                 if col >= columns:
@@ -407,6 +440,17 @@ class MarkdownEditor(QWidget):
         layout.addLayout(grid_layout)
         widget.setLayout(layout)
         return widget
+
+
+
+    def deselectAllTags(self):
+        # Deselect all checkboxes in baseTagsWidget
+        for checkbox in self.baseTagsWidget.findChildren(QCheckBox):
+            checkbox.setChecked(False)
+
+        # Deselect all checkboxes in mainTagsWidget
+        for checkbox in self.mainTagsWidget.findChildren(QCheckBox):
+            checkbox.setChecked(False)
 
 
     def processTagsForAllFiles(self):
