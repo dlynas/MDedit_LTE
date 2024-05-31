@@ -765,14 +765,32 @@ class MarkdownEditor(QWidget):
         words = re.findall(r'\b\w+\b', content)
         freq = Counter(words)
         sorted_freq = sorted(freq.items(), key=lambda x: x[1], reverse=True)
+
+        # Load triggers and associated keywords
+        triggers = pd.read_csv('triggers.csv')
+        trigger_keywords = {row['Trigger'].lower(): row['Keywords'].split(', ') for index, row in triggers.iterrows()}
+
+        highlighted_words = set()
+        # Determine which words to highlight
+        for word, _ in sorted_freq:
+            if word.lower() in trigger_keywords:
+                highlighted_words.update(trigger_keywords[word.lower()])
+            for trigger, keywords in trigger_keywords.items():
+                if word.lower() in keywords:
+                    highlighted_words.add(word.lower())
+
         if not is_embedded:
             self.wordList.clear()
+
+        self.wordList.setSelectionMode(QListWidget.MultiSelection)  # Allow multiple items to be selected
         for word, count in sorted_freq:
-            if 3 <= len(word) <= 15 and word.lower() not in stopwords_list: 
-                if is_embedded:
-                    self.wordList.addItem(f"{word}")
-                else:
-                    self.wordList.addItem(word)
+            if 3 <= len(word) <= 15 and word.lower() not in stopwords_list:
+                item = QListWidgetItem(f"{word} ({count})")
+                if word.lower() in highlighted_words:
+                    item.setForeground(QColor('red'))  # Set text color to red
+                    item.setSelected(True)  # Select the item
+                self.wordList.addItem(item)
+
 
     def autoSelectTags(self, content, is_embedded=False):
         triggers = pd.read_csv('triggers.csv')
@@ -1013,6 +1031,11 @@ class MarkdownEditor(QWidget):
                     self.updateAllTags(tag)
                 self.populateAllTagsList()
                 self.markAsModified()
+
+            # Deselect items after adding them as tags
+            for item in selectedItems:
+                item.setSelected(False)
+
 
 
     def updateTagLists(self, main_tags=None, base_tags=None):
