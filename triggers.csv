@@ -1,521 +1,933 @@
 Trigger,Keywords
-image,image
-video,video
-youtube,video
-multimedia,multimedia
-war,war
-political,politics
-government,politics
-university,education
-history,history
-economic,economics
-israel,"places, foreign_policy"
-policy,politics
-military,"war, politics"
-arab,groups
-science,science
-philosophy,philosophy
-tax,"politics, economics"
-palestine,"politics, places"
-book,book
-president,politics
-systems,systems
-economy,economics
-federal,politics
-bank,economics
-debt,economics
-israeli,"politics, places, groups"
-language,"communication, language"
-jewish,"religion, groups"
-media,media
-politics,politics
-marx,"socialism, people, economics"
-london,places
-german,"places, groups"
-workers,"labor, economics"
-revolution,"strategy, politics"
-soviet,places
-capital,"economics, capitalism"
-financial,economics
-army,"war, politics"
-income,economics
-voting,elections
-palestinian,"places, groups"
-banks,economics
-health,health
-democratic,politics
-wealth,economics
-historical,history
-election,"elections, politics"
-capitalism,"capitalism, economics"
-democracy,politics
-trump,"politics, people"
-voters,"elections, politics"
-economics,economics
-russian,"places, groups"
-labor,"labor, economics"
-america,places
-violence,violence
-community,community
-education,education
-lenin,"socialism, people"
-gaza,"places"
-trotsky,"socialism, people"
-jews,"religion, groups"
-strategy,strategy
-socialist,socialism
-taxes,economics
-congress,politics
-africa,places
-china,places
-germany,places
-policies,politics
-french,"places, groups"
-campaign,"elections, politics"
-consciousness,cognition
-biden,"politics, people"
-communication,communication
-europe,places
-democrats,"politics, groups"
-revolutionary,"strategy, politics"
-religious,religion
-european,"places, groups"
-candidates,"elections, politics"
-russia,places
-monetary,economics
-gender,gender
-governments,politics
-soldiers,"war, politics"
-saudi,places
-palestinians,"palestine, israel, groups, places"
-justice,politics
-police,"politics, law_enforcement, human_rights"
-psychology,psychology
-communist,"marxism, groups, economics, socialism"
-philosophical,philosophy
-castro,people
-arabs,groups
-candidate,"elections, politics"
-elections,"elections, politics"
-gdp,economics
-americans,"places, groups"
-paris,places
-engels,"people, marxism, philosophy, economics"
-habermas,"philosophy, people, communication, language"
-capitalist,"politics, economics, capitalism"
-property,"socialism, human_rights, economics, capitalism"
-technology,technology
-iran,places
-imf,"organizations, economics, capitalism"
-republican,"politics, groups"
-hegel,"philosophy, people, politics, philosophy, people"
-chinese,"places, groups"
-inflation,economics
-elected,"elections, politics"
-banking,economics
-guevara,"people, socialism, politics"
-college,education
-hamas,"politics, palestine, israel, groups"
-shia,"religion, groups"
-france,places
-marxist,"socialism, marxism, economics"
-roosevelt,people
-religion,religion
-physics,"physics, science"
-christian,"religion, groups"
-israel,"places, palestine, israel"
-jerusalem,"places, palestine, israel"
-egypt,places
-genocide,"war, violence, human_rights, politics"
-inequality,"socialism, human_rights, politics, economics"
-republicans,"politics, groups"
-jung,"psychology, people"
-ottoman,"places, groups"
-yemen,places
-currency,economics
-strategic,strategy
-economists,"groups, economics"
-wars,"war, violence, politics"
-race,"race, human_rights, politics"
-trans,"human_rights, politics, groups, gender"
-socialism,"socialism, politics, marxism, economics"
-psychological,psychology
-philosopher,"philosophy, people"
-stiglitz,"people, economics, capitalism"
-ideology,ideology
-presidential,politics
-treasury,economics
-climate,"ecology, climate, politics"
-labour,"socialism, marxism, labor, economics"
-medical,health
-sciences,science
-historian,history
-britain,places
-philosophers,philosophy
-bolsheviks,"socialism, marxism, groups"
-islamic,"religion, groups"
-politicians,politics
-wages,"socialism, labor, economics, capitalism"
-economist,economics
-deficit,economics
-senate,politics
-zionist,"politics, palestine, israel, groups"
-nkrumah,people
-heidegger,"philosophy, people"
-syria,places
-suicide,suicide
-scientists,science
-protest,"strategy, politics"
-marxism,"socialism, marxism, economics"
-finance,economics
-fiscal,economics
-marxs,"socialism, marxism, economics"
-peasants,"politics, labor, groups"
-resistance,"strategy, politics"
-galileo,"science, people"
-racial,"human_rights, race, politics"
-electoral,"elections, politics"
-protests,"strategy, politics"
-populist,politics
-lacan,"psychology, people"
-mathematical,"math, science"
-patterns,patterns
-hegel,"philosophy, people"
-employment,"socialism, labor, economics, capitalism"
-pattern,patterns
-propaganda,"strategy, psychology, politics, media, language, ideology, communication"
-voter,"elections, politics"
-revenue,economics
-software,technology
-cognitive,cognition
-weapons,violence
-prisoners,"justice, human_rights, politics"
-historians,history
-libya,places
-stalin,"socialism, people, marxism"
-hitler,"war, violence, politics, people, ideology, fascism, capitalism"
-therapy,health
-nazi,"fascism, politics"
-chicago,places
-bolshevik,"marxism, groups"
-holocaust,"war, violence, politics, history, fascism, capitalism"
-ukraine,places
-islam,religion
-blockchain,technology
-california,places
-poverty,"socialism, human_rights, politics, labor, economics, capitalism"
-muslim,"religion, groups"
-harvard,"places, education"
-immigration,"human_rights, politics, labor, economics"
-cuba,places
-egyptian,"places, groups"
-idf,"war, violence, places, palestine, israel, groups"
-obama,"politics, people"
-israelis,"places, palestine, israel, groups"
-condorcet,"elections, strategy, politics"
-constitution,politics
-asia,places
-greek,"places, groups"
-ideological,ideology
-jonestown,places
-mmt,"mmt, economics"
-leftist,"politics, groups"
-equity,"human_rights, politics, economics, religion, race, gender"
-bombing,violence
-twitter,"social_media, twitter"
-bias,"psychology, media, language, ideology, communication, cognition"
-unions,"socialism, politics, labor, groups, economics"
-heraclitus,people
-healthcare,"politics, health"
-moscow,places
-balfour,"palestine, israel"
-phenomenology,philosophy
-ptsd,health
-disorder,health
-bonds,economics
-england,places
-violent,violence
-lessig,people
-colonial,politics
-economies,economics
-vietnam,places
-cia,"politics, organizations"
-conservatives,"politics, groups"
-podcast,media
-hussein,people
-voted,", elections"
-llms,technology
-unemployment,"politics, economics"
-india,places
-rightwing,"politics, groups"
-iranian,"places, groups"
-cuban,"places, groups"
-doctrine,politics
-mathematics,"science, math"
-sunni,"religion, groups"
-invasion,"war, politics"
-treaty,politics
-politically,politics
-ballot,"elections, politics"
-reddit,"media, reddit"
-dualism,philosophy
-architecture,architecture
-commons,"socialism, human_rights, politics, ecology, community, capitalism"
-germans,"places, groups"
-investors,"groups, economics"
-elite,"politics, groups, economics"
-imperialism,politics
-combat,violence
-legislation,politics
-emergence,systems
-communism,"socialism, economics"
-wikipedia,"wikipedia, media"
-reforms,"strategy, politics"
-soviets,"places, groups"
-reasoning,"strategy, psychology, philosophy, language, communication, cognition"
-liberation,"human_rights, politics"
-church,religion
-yale,"places, education"
-physicalism,philosophy
-psychoanalysis,psychology
-fascism,"politics, ideology, fascism, capitalism"
-linguistic,"language, communication"
-presidents,politics
-transjordan,places
-berlin,places
-arrested,"human_rights, law_enforcement, justice, politics"
-gramsci,"people, marxism, socialism"
-dialectical,philosophy
-sociology,sociology
-columbia,"places, education"
-italy,places
-hedges,"people, media"
-zionism,"politics, palestine, israel, ideology"
-japan,places
-refugees,"human_rights, politics, groups"
-literary,education
-medicine,health
-kant,"philosophy, people"
-complexity,"systems, cognition"
-boston,places
-psychologists,psychology
-hermeneutics,philosophy
-pragmatics,"language, communication"
-taxation,"politics, economics"
-blackrock,"organizations, capitalism"
-parliament,politics
-governance,politics
-empathy,empathy
-muslims,"religion, groups"
-disease,health
-immigrants,"human_rights, politics, groups"
-officer,"law_enforcement, justice"
-trotskys,"marxism, groups"
-canada,places
-terrorism,"violence, politics"
-warfare,war
-racist,"human_rights, race, politics"
-humanitarian,human_rights
-racism,"human_rights, race, ideology, sociology"
-securities,economics
-hegemony,ideology
-protesters,"strategy, politics, groups"
-terrorist,"violence, politics, groups"
-ethics,"ethics, sociology, human_rights, philosophy, empathy"
-equality,"sociology, religion, race, politics, justice, gender, ethics"
-reagan,"politics, people"
-neuroscience,"science, cognition"
-haganah,"palestine, israel"
-nonfiction,nonfiction
-nationalism,"politics, ideology"
-freud,"psychology, people"
-communications,communication
-technological,technology
-buddhist,religion
-netanyahu,"politics, people, palestine, israel"
-massachusetts,places
+abortion,gender
+abortion,human_rights
+abortion,politics
 activist,politics
-universities,education
-pandemic,"politics, health"
-tactics,strategy
-liberals,"politics, groups"
-doctor,health
 activists,politics
-journalists,"media, groups"
-japanese,"places, groups"
-elites,"politics, groups, economics"
-afghanistan,places
-theorem,science
-enlightenment,"science, philosophy"
-paradigm,"patterns, ideology, cognition, systems"
-proletariat,"socialism, marxism, groups, economics"
-bayesian,"science, math"
-ecology,ecology
-hostages,politics
-linguistics,"language, communication, cognition"
-chile,places
-metaphysics,philosophy
-famine,"politics, health"
-torture,"elections, human_rights, politics"
-exile,"human_rights, politics"
-proust,people
-ecological,ecology
-haaretz,"palestine, media, israel"
-dictatorship,politics
-cambodia,places
-morality,"ethics, philosophy"
-clinton,"people, politics"
-senator,politics
-slavery,"race, human_rights, politics, justice, labor"
-vietnamese,"groups, places"
-coup,politics
-ghana,places
-authoritarian,"human_rights, politics"
-indigenous,"groups, places, politics, human_rights"
-bourgeois,"groups, economics, marxism, politics, socialism"
-apartheid,"politics, human_rights"
-rebellion,politics
-lebanon,places
-liberty,"human_rights, politics"
-marxists,"economics, groups, marxism, socialism"
-dialectic,"philosophy, cognition"
-bernie,"politics, people"
-poland,places
-zionists,"politics, palestine, israel, groups"
-fascist,"politics, groups, fascism, ideology"
-nationalist,"politics, ideology, groups"
-transgender,"human_rights, politics, health, gender"
-syrian,"places, groups"
-capitalists,"politics, groups, economics, capitalism"
-persian,"places, groups"
-fbi,"politics, organizations"
-texas,places
-parliamentary,politics
-feminist,"human_rights, politics, groups, gender"
-assassination,"violence, politics"
-surveillance,"surveillance, technology, human_rights, politics, law_enforcement"
-mao,"socialism, politics, people"
-spanish,"places, groups"
-christianity,religion
-anarchist,politics
-nazis,"fascism, groups"
-semantic,"language, communication"
-abortion,"human_rights, politics, gender"
-discrimination,"human_rights, politics"
-christians,"religion, groups"
-jazeera,media
-libyan,"places, groups"
-economically,economics
-psychiatry,psychology
-ballots,"elections, politics"
-journalism,media
-misinformation,"politics, media, communication"
-partisan,politics
-commodity,economics
-turkish,"places, groups"
-aristotle,"philosophy, people"
-korea,places
-houthi,"places, groups"
-fromm,people
-communists,"socialism, marxism, groups, economics"
-pakistan,places
-bankers,economics
-neoliberal,politics
-leftists,"groups, politics"
-politician,politics
-australia,places
-veterans,"war, groups, politics"
-solidarity,"strategy, politics"
-iraq,places
-scholarly,education
-ussr,places
-austrian,places
-metaphysical,philosophy
-oppression,"human_rights, politics"
-statecraft,politics
-censorship,"human_rights, politics, media, language, education, communication"
-cybernetics,systems
-math,"math, science"
-irgun,"palestine, organizations, israel"
-dialectics,"philosophy, cognition"
-einstein,"science, physics, people"
-churchill,"politics, people"
-colonialism,politics
-knesset,"politics, israel"
-libertarian,"politics, groups"
-neocolonialism,politics
-meditation,health
-compassion,empathy
-sociological,sociology
-imprisonment,"human_rights, politics, law_enforcement, labor, justice"
-ottoman,places
-mexico,places
-epistemology,"language, education, communication, cognition"
-billionaire,economics
-idealism,philosophy
-gpt,technology
-fallacy,cognition
-subreddit,"reddit, media"
-imprisoned,"human_rights, politics, law_enforcement, justice"
-liberalism,"politics, ideology"
-currencies,economics
-psychologist,psychology
-descartes,"philosophy, people"
-congo,places
-jail,"human_rights, politics, law_enforcement, justice"
-migration,"human_rights, politics"
-advocacy,"human_rights, politics"
-terrorists,"violence, politics, groups"
-qatar,places
-biased,cognition
-macroeconomic,economics
-jacobin,"socialism, media"
-socioeconomic,"sociology, economics"
-hezbollah,organizations
-australian,"places, groups"
-literacy,"literacy, media, communication, cognition"
-shareholders,"economics, groups"
-policymakers,"politics, groups"
-cognition,cognition
-rafah,"places, palestine, israel"
-homelessness,"human_rights, politics"
-mesopotamia,places
-kapital,marxism
-employer,"groups, economics, socialism, capitalism, labor"
-workforce,"socialism, politics, labor, economics, capitalism"
-missiles,"war, politics"
-electorate,"elections, politics"
-embassy,politics
-nato,organizations
-migrants,"human_rights, politics"
-buddha,"religion, people"
-ontology,"ontology, language, communication"
-minimax,"elections, politics"
-indonesia,places
-bahrain,places
-prisons,"human_rights, politics, law_enforcement, justice"
-baghdad,places
-macroeconomics,economics
-plato,"philosophy, people"
-derrida,"philosophy, people"
-taliban,organizations
-nietzsche,"philosophy, people"
-judaism,religion
-unemployed,"economics, labor"
-venezuela,places
-foucault,"philosophy, people"
-sudan,places
-tiktok,"tiktok, media"
-keynes,"people, economics, capitalism"
-taxpayers,"groups, economics"
-argentina,places
-chemistry,science
+advocacy,human_rights
+advocacy,politics
+apartheid,apartheid
+apartheid,human_rights
+apartheid,politics
+architecture,architecture
+army,politics
+army,war
+assassination,politics
+assassination,violence
 astronomy,science
-reparations,"race, politics, economics"
-spacetime,"science, physics"
-serbia,places
-bezos,"people, capitalism"
-tantura,"violence, palestine, israel"
-authoritarianism,"ideology, fascism, politics"
-physicist,"science, physics"
-instagram,"instagram, social_media"
+authoritarian,authoritarian
+authoritarian,human_rights
+authoritarian,politics
+authoritarianism,authoritarianism
+authoritarianism,fascism
+authoritarianism,ideology
+authoritarianism,politics
+baghdad,baghdad
+bahrain,bahrain
+balfour,balfour
+balfour,israel
+balfour,palestine
+balfour,politics
+ballot,ballot
+ballot,elections
+ballot,politics
+ballots,ballots
+ballots,elections
+ballots,politics
+bank,economics
+bankers,economics
+banking,economics
+banks,economics
+bayesian,bayesian
+bayesian,math
+bayesian,science
+bernie,bernie
+bernie,politics
+bezos,bezos
+bezos,billionaires
+bias,bias
+bias,critical_thinking
+biased,critical_thinking
+biden,biden
+biden,politics
+billionaire,wealth
+blackrock,blackrock
+blackrock,capitalism
+blockchain,technology
+bolshevik,bolshevik
+bolshevik,socialism
+bolsheviks,bolsheviks
+bolsheviks,socialism
+bombing,violence
+bonds,economics
+boston,boston
+bourgeois,bourgeois
+bourgeois,economics
+bourgeois,socialism
+britain,britain
+buddha,buddhism
+buddhist,buddhism
+calibre_pdf,pdf
+california,california
+cambodia,cambodia
+campaign,elections
+campaign,politics
+canada,canada
+candidate,elections
+candidate,politics
+candidates,elections
+candidates,politics
+capital,capital
+capital,capitalism
+capital,economics
+capitalism,capitalism
+capitalism,economics
+capitalist,capitalism
+capitalist,capitalist
+capitalist,economics
+capitalists,capitalism
+capitalists,capitalists
+capitalists,economics
+castro,castro
+censorship,censorship
+censorship,media
+chemistry,science
+chicago,chicago
+chile,chile
+china,china
+chinese,china
+christianity,religion
+churchill,politics
+cia,cia
+cia,politics
+climate,climate
+clinton,clinton
+clinton,politics
+cognition,cognition
+cognitive,cognition
+college,education
+colonialism,politics
+columbia,columbia
+columbia,education
+commodity,economics
+commons,commons
+commons,community
+commons,ecology
+commons,socialism
+communism,communism
+communism,economics
+communism,socialism
+communist,communism
+communist,economics
+communist,socialism
+communists,communism
+communists,economics
+communists,socialism
+compassion,empathy
+complexity,complexity
+complexity,systems
+condorcet,condorcet
+condorcet,elections
+condorcet,politics
+condorcet,strategy
+congo,congo
+congress,politics
+conservatives,conservatives
+conservatives,politics
+constitution,politics
+coup,politics
+COVID,health
+COVID,pandemic
+cuba,cuba
+cuban,cuban
+currencies,economics
+currency,economics
+cybernetics,cybernetics
+cybernetics,systems
+debt,economics
+deficit,economics
+democracy,politics
+democratic,politics
+democrats,democrats
+democrats,politics
+derrida,philosophy
+descartes,philosophy
+dialectic,dialectics
+dialectic,philosophy
+dialectical,philosophy
+dialectics,dialectics
+dialectics,philosophy
+dictatorship,politics
+discrimination,discrimination
+discrimination,human_rights
+discrimination,politics
+disease,health
+disorder,health
+doctrine,politics
+dualism,philosophy
+ecological,ecology
+ecology,ecology
+economic,economics
+economically,economics
+economics,economics
+economies,economics
+economist,economics
+economists,economics
+economists,economists
+economy,economics
+education,education
+egypt,egypt
+egyptian,egyptian
+einstein,einstein
+einstein,physics
+einstein,science
+elected,elected
+elected,elections
+elected,politics
+election,election
+election,elections
+election,politics
+elections,elections
+elections,politics
+electoral,elections
+electoral,electoral
+electoral,politics
+electorate,elections
+electorate,electorate
+electorate,politics
+elite,elite
+elites,elites
+embassy,politics
+emergence,systems
+empathy,compassion
+empathy,empathy
+employer,economics
+employer,employer
+employer,labor
+employment,economics
+employment,employment
+employment,labor
+engels,economics
+engels,engels
+engels,marxism
+engels,philosophy
+england,england
+enlightenment,enlightenment
+enlightenment,philosophy
+enlightenment,science
+epistemology,communication
+epistemology,education
+epistemology,epistemology
+epistemology,language
+equality,equality
+equality,equity
+equality,justice
+equality,politics
+equality,sociology
+equity,equality
+equity,equity
+equity,gender
+equity,human_rights
+equity,politics
+ethics,compassion
+ethics,empathy
+ethics,ethics
+ethics,human_rights
+ethics,sociology
+europe,europe
+european,europe
+exile,exile
+exile,human_rights
+exile,politics
+fallacy,critical_thinking
+fallacy,fallacy
+famine,famine
+famine,politics
+fascism,capitalism
+fascism,fascism
+fascism,ideology
+fascism,politics
+fascist,fascism
+fascist,fascist
+fascist,ideology
+fascist,politics
+fbi,fbi
+federal,politics
+feminist,feminist
+feminist,gender
+feminist,human_rights
+feminist,politics
+finance,economics
+financial,economics
+fiscal,economics
+foucault,philosophy
+france,france
+french,french
+freud,psychology
+fromm,fromm
+galileo,science
+gaza,gaza
+gaza,palestine
+gaza,politics
+gdp,economics
+gender,gender
+gender,human_rights
+genocide,genocide
+genocide,human_rights
+genocide,politics
+genocide,violence
+german,german
+germans,germans
+germany,germany
+ghana,ghana
+governance,politics
+government,politics
+governments,politics
+gpt,technology
+gramsci,gramsci
+gramsci,marxism
+gramsci,socialism
+greek,greek
+guevara,guevara
+guevara,socialism
+haaretz,haaretz
+haaretz,israel
+haaretz,palestine
+habermas,communication
+habermas,habermas
+habermas,language
+habermas,philosophy
+haganah,haganah
+haganah,israel
+haganah,palestine
+haganah,politics
+hamas,hamas
+hamas,israel
+hamas,palestine
+hamas,politics
+harvard,education
+harvard,harvard
+health,health
+healthcare,health
+healthcare,healthcare
+healthcare,politics
+hedges,hedges
+hegel,hegel
+hegel,philosophy
+hegel,politics
+hegemony,hegemony
+hegemony,ideology
+heidegger,philosophy
+heraclitus,heraclitus
+hermeneutics,philosophy
+hezbollah,hezbollah
+hitler,capitalism
+hitler,fascism
+hitler,hitler
+hitler,ideology
+hitler,nazis
+hitler,politics
+hitler,war
+holocaust,capitalism
+holocaust,fascism
+holocaust,history
+holocaust,holocaust
+holocaust,nazis
+holocaust,politics
+holocaust,violence
+holocaust,war
+homelessness,homelessness
+homelessness,housing
+homelessness,human_rights
+homelessness,politics
+hostages,politics
+houthi,houthi
+humanitarian,human_rights
+hussein,hussein
+idealism,philosophy
+ideological,ideology
+ideology,ideology
+idf,idf
+idf,israel
+idf,palestine
+image,image
+imf,capitalism
+imf,economics
+imf,imf
+immigrants,human_rights
+immigrants,immigration
+immigrants,migration
+immigrants,politics
+immigration,economics
+immigration,human_rights
+immigration,immigration
+immigration,migration
+immigration,politics
+imperialism,politics
+imprisoned,human_rights
+imprisoned,imprisoned
+imprisoned,justice
+imprisoned,politics
+imprisonment,human_rights
+imprisonment,imprisonment
+imprisonment,justice
+imprisonment,politics
+income,economics
+india,india
+indigenous,human_rights
+indigenous,indigenous
+indigenous,politics
+indonesia,indonesia
+inequality,economics
+inequality,human_rights
+inequality,inequality
+inequality,politics
+inflation,economics
+instagram,instagram
+instagram,social_media
+invasion,invasion
+invasion,politics
+invasion,war
+investors,economics
+investors,investors
+iran,iran
+iranian,iranian
+iraq,iraq
+irgun,irgun
+irgun,israel
+irgun,palestine
+irgun,politics
+islam,religion
+islamic,islamic
+islamic,religion
+israel,israel
+israel,palestine
+israel,politics
+israeli,politics
+israelis,israel
+israelis,israelis
+israelis,palestine
+israelis,politics
+italy,italy
+jacobin,jacobin
+jacobin,socialism
+jail,human_rights
+jail,imprisonment
+jail,justice
+jail,politics
+japan,japan
+japanese,japanese
+jazeera,al_jazeera
+jerusalem,israel
+jerusalem,jerusalem
+jerusalem,palestine
+jonestown,jonestown
+journalism,journalism
+journalists,journalism
+jung,psychology
+justice,politics
+kant,philosophy
+kapital,economics
+kapital,marxism
+kapital,socialism
+keynes,capitalism
+keynes,economics
+keynes,keynes
+knesset,israel
+knesset,knesset
+knesset,politics
+korea,korea
+labor,economics
+labor,labor
+labor,marxism
+labor,socialism
+labour,economics
+labour,labor
+labour,marxism
+labour,socialism
+lacan,psychology
+lebanon,lebanon
+leftist,left_politics
+leftist,politics
+leftists,left_politics
+leftists,politics
+legislation,politics
+lenin,socialism
+lessig,lessig
+liberalism,ideology
+liberalism,liberalism
+liberalism,politics
+liberals,liberals
+liberals,politics
+liberation,human_rights
+liberation,liberation
+liberation,politics
+libertarian,libertarian
+libertarian,politics
+liberty,human_rights
+liberty,liberty
+liberty,politics
+libya,libya
+libyan,libyan
+linguistic,communication
+linguistic,language
+linguistic,linguistic
+linguistics,communication
+linguistics,language
+linguistics,linguistics
+literacy,communication
+literacy,literacy
+literacy,media_literacy
+literary,education
+llms,technology
+london,london
+macroeconomic,economics
+macroeconomics,economics
+mao,mao
+mao,politics
+mao,socialism
+marx,economics
+marx,marx
+marx,socialism
+marxism,economics
+marxism,marxism
+marxism,socialism
+marxist,economics
+marxist,marxism
+marxist,marxist
+marxist,socialism
+marxists,economics
+marxists,marxism
+marxists,marxists
+marxists,socialism
+marxs,economics
+marxs,marx
+marxs,marxism
+marxs,socialism
+massachusetts,massachusetts
+math,math
+math,science
+mathematical,math
+mathematical,mathematical
+mathematical,science
+mathematics,math
+mathematics,mathematics
+mathematics,science
+media,media_literacy
+medical,health
+medicine,health
+meditation,health
+mesopotamia,mesopotamia
+metaphysical,philosophy
+metaphysics,philosophy
+mexico,mexico
+migrants,human_rights
+migrants,migrantion
+migrants,migrants
+migrants,politics
+migration,human_rights
+migration,migration
+migration,politics
+military,military
+military,politics
+military,war
+minimax,elections
+minimax,minimax
+minimax,politics
+misinformation,communication
+misinformation,media
+misinformation,misinformation
+misinformation,politics
+missiles,missiles
+missiles,war
+mmt,economics
+mmt,mmt
+monetary,economics
+monetary,mmt
+morality,ethics
+morality,morality
+morality,philosophy
+moscow,moscow
+muslim,muslim
+muslims,muslims
+nationalism,ideology
+nationalism,nationalism
+nationalism,politics
+nationalist,ideology
+nationalist,nationalist
+nationalist,politics
+nato,nato
+nazi,fascism
+nazi,ideology
+nazi,nazis
+nazi,politics
+nazis,fascism
+nazis,ideology
+nazis,nazis
+neocolonialism,politics
+neoliberal,politics
+netanyahu,israel
+netanyahu,netanyahu
+netanyahu,palestine
+netanyahu,politics
+neuroscience,cognition
+neuroscience,neuroscience
+neuroscience,science
+nietzsche,philosophy
+nkrumah,nkrumah
+non-fiction,nonfiction
+nonfiction,nonfiction
+obama,politics
+ontology,communication
+ontology,language
+ontology,language
+ontology,ontology
+ontology,ontology
+oppression,human_rights
+oppression,oppression
+oppression,politics
+organizing,organizing
+ottoman,ottoman
+pakistan,pakistan
+palestine,israel
+palestine,palestine
+palestine,politics
+palestinian,politics
+palestinians,israel
+palestinians,palestine
+palestinians,palestinians
+pandemic,health
+pandemic,pandemic
+pandemic,politics
+paradigm,paradigm
+paris,paris
+parliament,politics
+parliamentary,politics
+partisan,politics
+patterns,patterns
+peasants,labor
+peasants,peasants
+peasants,politics
+persian,persian
+phenomenology,philosophy
+philosopher,philosophy
+philosophers,philosophy
+philosophical,philosophy
+philosophy,philosophy
+physicalism,philosophy
+physicist,physics
+physicist,science
+physics,physics
+physics,science
+plato,philosophy
+poland,poland
+police,human_rights
+police,law_enforcement
+police,police
+police,politics
+policies,politics
+policy,politics
+policymakers,politics
+political,politics
+politically,politics
+politician,politics
+politicians,politics
+politics,politics
+populist,politics
+poverty,capitalism
+poverty,economics
+poverty,human_rights
+poverty,labor
+poverty,politics
+poverty,poverty
+poverty,socialism
+pragmatics,communication
+pragmatics,language
+pragmatics,pragmatics
+president,politics
+presidential,politics
+presidents,politics
+prison,imprisonment
+prisoners,human_rights
+prisoners,imprisonment
+prisoners,justice
+prisoners,politics
+prisoners,prisoners
+prisons,human_rights
+prisons,imprisonment
+prisons,justice
+prisons,law_enforcement
+prisons,politics
+prisons,prisons
+proletariat,economics
+proletariat,marxism
+proletariat,proletariat
+proletariat,socialism
+propaganda,communication
+propaganda,language
+propaganda,media
+propaganda,politics
+propaganda,propaganda
+property,capitalism
+property,economics
+property,property
+protest,politics
+protest,protest
+protesters,politics
+protesters,protesters
+protests,politics
+protests,protests
+proust,proust
+psychiatry,psychology
+psychoanalysis,psychology
+psychological,psychology
+psychologist,psychology
+psychologists,psychology
+psychology,psychology
+ptsd,health
+qatar,qatar
+race,human_rights
+race,politics
+race,race
+racial,human_rights
+racial,politics
+racial,race
+racial,racial
+racism,human_rights
+racism,ideology
+racism,race
+racism,racism
+racism,sociology
+racist,human_rights
+racist,politics
+racist,race
+racist,racist
+rafah,israel
+rafah,palestine
+rafah,rafah
+reagan,politics
+reasoning,critical_thinking
+reasoning,reasoning
+rebellion,politics
+reddit,reddit
+reforms,politics
+reforms,reforms
+refugees,human_rights
+refugees,migration
+refugees,politics
+refugees,refugees
+religion,religion
+religious,religion
+reparations,economics
+reparations,politics
+reparations,race
+reparations,reparations
+republican,politics
+republicans,politics
+republicans,republicans
+revenue,economics
+revolution,politics
+revolution,revolution
+revolutionary,politics
+revolutionary,revolutionary
+roosevelt,roosevelt
+russia,russia
+russian,russian
+saudi,saudi
+scholarly,education
+science,science
+sciences,science
+scientists,science
+securities,economics
+semantic,communication
+semantic,language
+semantic,semantic
+senate,politics
+senator,politics
+serbia,serbia
+shareholders,economics
+shareholders,shareholders
+shia,islam
+shia,shia
+slavery,human_rights
+slavery,justice
+slavery,labor
+slavery,politics
+slavery,race
+slavery,slavery
+socialism,economics
+socialism,marxism
+socialism,politics
+socialism,socialism
+socialist,socialism
+socioeconomic,economics
+socioeconomic,socioeconomic
+socioeconomic,sociology
+sociological,sociology
+sociology,sociology
+software,technology
+soldiers,politics
+soldiers,soldiers
+soldiers,war
+solidarity,solidarity
+soviet,soviet
+soviets,soviets
+space-time,physics
+space-time,science
+space-time,spacetime
+spacetime,physics
+spacetime,science
+spacetime,spacetime
+spanish,spanish
+stalin,marxism
+stalin,socialism
+stalin,stalin
+statecraft,politics
+stiglitz,capitalism
+stiglitz,economics
+stiglitz,stiglitz
+strategic,strategy
+strategy,strategy
+subreddit,reddit
+subreddit,subreddit
+sudan,sudan
+suicide,suicide
+sunni,islam
+sunni,sunni
+surveillance,human_rights
+surveillance,law_enforcement
+surveillance,politics
+surveillance,surveillance
+surveillance,technology
+syria,syria
+syrian,syrian
+tactics,strategy
+taliban,taliban
+tantura,history
+tantura,israel
+tantura,palestine
+tantura,tantura
+tantura,violence
+tax,economics
+tax,politics
+tax,tax
+taxation,economics
+taxation,politics
+taxation,taxation
+taxes,economics
+taxpayers,economics
+taxpayers,taxpayers
+technological,technology
+technology,technology
+terrorism,politics
+terrorism,terrorism
+terrorism,violence
+terrorist,terrorism
+terrorist,violence
+terrorists,terrorists
+terrorists,violence
+texas,texas
+theorem,science
+therapy,health
+therapy,mental_health
+tiktok,tiktok
+torture,human_rights
+torture,politics
+torture,torture
+trans,gender
+trans,human_rights
+trans,politics
+trans,trans
+transgender,gender
+transgender,health
+transgender,human_rights
+transgender,politics
+transgender,transgender
+transjordan,transjordan
+treasury,economics
+treaty,politics
+trotsky,marxism
+trotsky,socialism
+trump,politics
+turkish,turkish
+twitter,social_media
+twitter,twitter
+ukraine,ukraine
+unemployed,economics
+unemployed,labor
+unemployed,unemployment
+unemployment,economics
+unemployment,politics
+unemployment,unemployment
+unions,economics
+unions,labor
+unions,organizing
+unions,politics
+unions,socialism
+unions,unions
+universities,education
+university,education
+ussr,ussr
+venezuela,venezuela
+veteran,military
+veteran,politics
+veteran,veterans
+veteran,war
+veterans,military
+veterans,politics
+veterans,politics
+veterans,veterans
+veterans,war
+video,video
+vietnam,vietnam
+vietnamese,vietnamese
+violence,violence
+voted,elections
+voted,voted
+voter,elections
+voter,politics
+voter,voter
+voters,elections
+voters,politics
+voters,voters
+voting,elections
+wages,capitalism
+wages,economics
+wages,labor
+wages,socialism
+wages,wages
+war,war
+warfare,war
+wars,politics
+wars,violence
+wars,war
+wars,wars
+wealth,economics
+wikipedia,media
+wikipedia,wikipedia
+workers,economics
+workers,labor
+workers,workers
+workforce,capitalism
+workforce,economics
+workforce,labor
+workforce,politics
+workforce,socialism
+workforce,workforce
+yale,education
+yale,yale
+yemen,yemen
+youtube,video
+zionism,ideology
+zionism,israel
+zionism,palestine
+zionism,politics
+zionism,zionism
+zionist,israel
+zionist,palestine
+zionist,politics
+zionist,zionist
+zionists,israel
+zionists,palestine
+zionists,politics
+zionists,zionists
